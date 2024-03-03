@@ -1,4 +1,4 @@
-import { Combobox } from "@/components/ui/combobox";
+import { Combobox,  } from "@/components/ui/combobox";
 
 export default function Filter() {
   const vals_state = [
@@ -23,14 +23,27 @@ export default function Filter() {
     { value: "SC", label: "SC" },
     { value: "KY", label: "KY" },
   ];
+  const vals_division = [{'value': 'Capital', 'label': 'Capital'},{'value': 'Central West Tx', 'label': 'Central West Tx'}, {'value': 'Continental', 'label': 'Continental'}, {'value': 'East Florida', 'label': 'East Florida'}, {'value': 'Far West', 'label': 'Far West'}, {'value': 'Gulf Coast', 'label': 'Gulf Coast'}, {'value': 'HCA Corp', 'label': 'HCA Corp'}, {'value': 'HSC', 'label': 'HSC'}, {'value': 'MidAmerica', 'label': 'MidAmerica'}, {'value': 'Mountain', 'label': 'Mountain'}, {'value': 'North Carolina', 'label': 'North Carolina'}, {'value': 'North Florida', 'label': 'North Florida'}, {'value': 'North Texas', 'label': 'North Texas'}, {'value': 'Physician Services Group', 'label': 'Physician Services Group'}, {'value': 'San Antonio', 'label': 'San Antonio'}, {'value': 'South Atlantic', 'label': 'South Atlantic'}, {'value': 'Supply Chain', 'label': 'Supply Chain'}, {'value': 'Tristar', 'label': 'Tristar'}, {'value': 'West Florida', 'label': 'West Florida'}]
   return (
     <div className="h-full w-1/6 items-center justify-center place-items-center shadow-xl p-4 bg-white rounded-lg">
       <h1 className="text-center text-3xl font-semibold py-2 mb-4">Filter</h1>
-      <div className="flex items-center justify-center">
+      <div className=" items-center justify-center">
         <div className="my-2">
+          <p className="text-sm font-semibold pl-1 pb-1">STATE</p>
+          <Combobox fm={vals_state} selectedState="facility_state" />
+        </div>
+        <div className="my-2">
+          <p className="text-sm font-semibold pl-1 pb-1">DIVISION</p>
+          <Combobox fm={vals_division} selectedState="division_name" />
+        </div>
+        {/* <div className="my-2">
           <p className="text-sm font-semibold pl-1 pb-1">STATE</p>
           <Combobox fm={vals_state} />
         </div>
+        <div className="my-2">
+          <p className="text-sm font-semibold pl-1 pb-1">STATE</p>
+          <Combobox fm={vals_state} />
+        </div> */}
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ import Details from "./widgets/details/details";
 import 'leaflet/dist/leaflet.css';
 import MapComponent from "./widgets/map/map";
 import { useSelector, useDispatch } from 'react-redux';
-import { setToken, setDisplayIds } from './state/slice';
+import { setToken, setDisplayIds,  copyOrigData } from './state/slice';
 import setInitialData from "./utils/set_initial_data";
 import { data } from "autoprefixer";
 // import './App.css'
@@ -33,6 +33,8 @@ function App() {
       const data = await fetchData();
       // console.log(data)
       dispatch(setDisplayIds(data));
+      copyOrigData();
+
       setIsLoading(false);
       // console.log(count)
     };

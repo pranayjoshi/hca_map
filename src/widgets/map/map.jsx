@@ -3,6 +3,11 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import statesData from "./us-states.js"; // Assuming us-states.js exports the GeoJSON data
 import { useSelector, useDispatch } from "react-redux";
+import 'leaflet.markercluster/dist/MarkerCluster.css';
+import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
+// import { MarkerClusterGroup } from 'leaflet.markercluster';
+
+
 
 function MapComponent() {
   const mapRef = useRef(null);
@@ -23,6 +28,7 @@ function MapComponent() {
       }
     ).addTo(map);
 
+
     // control that shows state info on hover
     var info = L.control();
 
@@ -34,13 +40,10 @@ function MapComponent() {
 
     info.update = function (props) {
       this._div.innerHTML =
-        "<h4>US Population Density</h4>" +
         (props
           ? "<b>" +
             props.name +
-            "</b><br />" +
-            props.density +
-            " people / mi<sup>2</sup>"
+            "</b><br />"
           : "Hover over a state");
     };
 
@@ -48,30 +51,77 @@ function MapComponent() {
 
     // get color depending on population density value
     function getColor(d) {
-      return d > 1000
-        ? "#800026"
-        : d > 500
-        ? "#BD0026"
-        : d > 200
-        ? "#E31A1C"
-        : d > 100
-        ? "#FC4E2A"
-        : d > 50
-        ? "#FD8D3C"
-        : d > 20
-        ? "#FEB24C"
-        : d > 10
-        ? "#FED976"
-        : "#FFEDA0";
+      return  "gray"
     }
-    count.forEach((item) => {
-      try {
-        // console.log(item);
-        L.marker([item.Latitude, item.Longitude]).addTo(map);
-      } catch (err) {
-        // console.error(err);
-      }
-    });
+  //   function displaceMarkers(facilities) {
+  //     const displacementDistance = 0.1; // Adjust based on zoom level or other criteria
+  //     console.log(facilities);
+  //     let updatedFacilities = [];
+  //     let newLat, newLng;
+      
+  //     facilities.forEach((facility, index) => {
+  //       // console.log(facility);
+  //         newLat = facility.Latitude;
+  //         newLng = facility.Longitude;
+  //         try {
+  //         facilities.forEach((otherFacility, otherIndex) => {
+  //           // console.log(otherFacility)
+  //             if (index !== otherIndex) {
+  //               // console.log(otherFacility)
+  //                 const distance = map.distance([facility.Latitude, facility.Longitude], [otherFacility.Latitude, otherFacility.Longitude]);
+  //                 console.log(distance)
+  //                 if (distance < 100000) { // 5 km threshold, adjust as needed
+  //                     // Example displacement logic - adjust as necessary for your use case
+  //                     console.log("displacement")
+  //                     // newLat += (Math.random() -0.5) * displacementDistance;
+  //                     // newLng += (Math.random() -0.5) * displacementDistance;
+  //                 }
+  //             }
+  //         });
+  //       } catch (err) {
+  //       }
+  //         updatedFacilities.push({id: facility.id, Latitude: newLat, Longitude: newLng});
+  //     });
+    
+  //     console.log(updatedFacilities)
+  
+  //     return updatedFacilities;
+  // }
+  // var displacedFacilities = displaceMarkers(count);
+
+  var hubSitesIcon = L.icon({
+    iconUrl: 'https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/64/external-legal-business-and-finance-icongeek26-linear-colour-icongeek26.png',
+    iconSize: [38, 95], // size of the icon
+    // specify the anchor where the icon's "tip" should be
+    iconAnchor: [22, 94],
+    // and the anchor of the popup
+    popupAnchor: [-3, -76]
+  });
+// Add displaced markers to the map
+count.forEach(facility => {
+  // console.log(facility)
+  
+  try {
+    if (facility["facility_name"].includes("Hub Sites")) L.marker([facility.Latitude, facility.Longitude], {icon: hubSitesIcon}).addTo(map);
+    else if (facility["division_name"].includes("Supply Chain")) console.log("Awdwadwad2");
+    else if (facility["division_name"].includes("HSC")) console.log("Awdwadwad22");
+    // console.log(item);
+    else L.marker([facility.Latitude, facility.Longitude]).addTo(map);
+
+  } catch (err) {
+    // console.error(err);
+  }
+    
+});
+    // count.forEach((item) => {
+    //   try {
+    //     // console.log(item);
+    //     L.marker([item.Latitude, item.Longitude]).addTo(map);
+    //   } catch (err) {
+    //     // console.error(err);
+    //   }
+    // });
+    
 
     function style(feature) {
       return {

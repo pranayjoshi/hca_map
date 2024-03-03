@@ -1,7 +1,7 @@
 export default function DetailCard(data) {
-    console.log(data)
+    // console.log(data)
     data = data.data
-    console.log(data)
+    // console.log(data)
     return (
         <div>
             <div className="h-full border border-gray-300 bg-white rounded-lg p-2">
