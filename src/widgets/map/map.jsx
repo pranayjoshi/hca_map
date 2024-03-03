@@ -267,10 +267,11 @@ const markersWithDisplacement = count.map((marker, index) => {
       var layer = e.target;
 
       layer.setStyle({
-        weight: 5,
-        color: "#666",
+        weight: 3,
+        color: "red",
         dashArray: "",
         fillOpacity: 0.7,
+        fillColor: "red",
       });
 
       if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
