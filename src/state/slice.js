@@ -5,7 +5,8 @@ const initialState = {
   name: null,
   display_ids: [],
   original_data:[],
-  temp_data: []
+  temp_data: [],
+  isNormal: true,
 };
 
 export const authSlice = createSlice({
@@ -34,6 +35,9 @@ export const authSlice = createSlice({
     setTempData: (state, action) => {
       state.temp_data = action.payload;
     },
+    toggleIsNormal: (state) => {
+      state.isNormal = !state.isNormal;
+    },
     // setLogin: (state, action) => {
       
     //   state.user = action.payload.user;
@@ -50,6 +54,6 @@ export const authSlice = createSlice({
   },
 });
 
-export const { setToken, setDisplayIds, copyOrigData, setTempData, setDispl} =
+export const { setToken, setDisplayIds, copyOrigData, setTempData, setDispl, toggleIsNormal} =
   authSlice.actions;
 export default authSlice.reducer;

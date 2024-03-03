@@ -49,9 +49,9 @@ function App() {
     <>
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-2 pl-4">
         <div className="flex flex-col items-center justify-center w-5/6">
-          <h1 className="text-6xl text-gray-900 pb-2">HCA Mapper</h1>
+          <h1 className="text-6xl text-gray-900 pb-2 font-semibold my-6">HCA Mapper</h1>
         </div>
-        <div className="flex w-full gap-4">
+        <div className="flex w-full gap-6">
           <Filter />
           <MapComponent/>
           <Details />
