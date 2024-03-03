@@ -1,266 +1,266 @@
-﻿facility_id,facility_coid,facility_name,timezone,tz_utc_offset,tz_description,emr_mnem,emr_name,facility_status,facility_address1,facility_city,facility_state,facility_zip,company_name,division_mnem,division_name,network_meditech_network
-18000016,34654,LewisGale Alleghany,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1 Alleghany Regional Hospital Lane,Low Moor,VA,24457,HCA,H-CAP,Capital,VAB
-18000023,25314,Appomattox Imaging Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,"930 S. Ave
-Suite 101",Colonial Heights,VA,23834,HCA,H-CAP,Capital,VAA
-18000070,25446,Brambleton Imaging Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,4330 Brambleton Avenue,Roanoke,VA,24018,HCA,H-CAP,Capital,VAB
-18000083,09798,Buford Road Imaging,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2612 Burford Road,Richmond,VA,23235,HCA,H-CAP,Capital,VAA
-18000118,03449,Chesterfield Imaging,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,13636 Hull Street Road,Midlothian,VA,23112,HCA,H-CAP,Capital,VAA
-18000125,34632,Chippenham-Johnston Willis Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1401 Johnston-Willis Drive,Richmond,VA,23235,HCA,H-CAP,Capital,VAA
-18000243,25061,Capital Division Hub Sites,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,110 N. Robinson Steet. Suite 201,Richmond,VA,23220,HCA,H-CAP,Capital,*None
-18000348,08409,Dominion Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2960 Sleepy Hollow Road,Falls Church,VA,22044,HCA,H-CAP,Capital,VAC
-18000501,34634,Henrico Doctors Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1602 Skipwith Rd,Richmond,VA,23229,HCA,H-CAP,Capital,VAA
-18000572,23001,Independence Park Imagaing Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,"9930 Independence Park Drive, Suite 100",Richmond,VA,23233,HCA,H-CAP,Capital,VAA
-18000593,34627,TriCities Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,411 W Randolph Rd,Hopewell,VA,23860,HCA,H-CAP,Capital,VAA
-18000641,34630,LewisGale Medical Center - Salem,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1900 Electric Rd,Salem,VA,24153,HCA,H-CAP,Capital,VAB
-18000749,34610,LewisGale Montgomery,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3700 S Main St,Blacksburg,VA,24060,HCA,H-CAP,Capital,VAB
-18000877,32905,Parkland Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1 Parkland Dr,Derry,NH,03038,HCA,H-CAP,Capital,NHA
-18000909,32902,Portsmouth Regional Medical Ctr.,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,333 Borthwick Ave,Portsmouth,NH,03801,HCA,H-CAP,Capital,NHA
-18000925,34605,LewisGale Pulaski,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2400 Lee Hwy,Pulaski,VA,24301,HCA,H-CAP,Capital,VAB
-18000969,08540,Reston Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1850 Town Center Pkwy,Reston,VA,20190,HCA,H-CAP,Capital,VAC
-18001065,25325,Spotsylvania Regional Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,4600 Spotsylvania Parkway,Fredericksburg,VA,22408,HCA,H-CAP,Capital,VAA
-18001107,26630,Stone Springs Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,24440 Stone Springs Blvd,Dulles,VA,20166,HCA,H-CAP,Capital,VAC
-18001141,31408,Terre Haute Regional Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3901 S 7th St,Terre Haute,IN,47802,HCA,H-CAP,Capital,INA
-18001361,27720,Frisbie Memorial Hospital,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,11 Whitehall Road,Rochester,NH,27720,HCA,H-CAP,Capital,*None
-18001461,27720,Frisbie Memorial Hospital (EXP),est,-05:00,Eastern Time Zone,MTX,Meditech Expanse GCP,1,11 Whitehall Road,Rochester,NH,27720,HCA,H-CAP,Capital,HCANH
-18001470,32902,Portsmouth Regional Medical Center (EXP),est,-05:00,Eastern Time Zone,MTX,Meditech Expanse GCP,1,333 Borthwick,Portsmouth,NH,03801,HCA,H-CAP,Capital,HCANH
-18001471,32905,Parkland Medical Center (EXP),est,-05:00,Eastern Time Zone,MTX,Meditech Expanse GCP,1,1 Parkland Dr,Derry,NH,03038,HCA,H-CAP,Capital,HCANH
-18001082,25067,St. David's Georgetown Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,2000 Scenic Drive,Georgetown,TX,78626,HCA,H-CWT,Central West Tx,TXI
-18001084,06676,St. David's Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,919 E 32nd St,Austin,TX,78705,HCA,H-CWT,Central West Tx,TXI
-18001087,34320,St. David's South Hospital (South Austin Hosp),cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,901 West Ben White Blvd,Austin,TX,78704,HCA,H-CWT,Central West Tx,TXI
-18001089,26825,St. David's Surgical Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1210 West Henna Blvd,Austin,TX,78664,HCA,H-CWT,Central West Tx,TXI
-18000996,37381,Round Rock Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,2400 Round Rock Ave,Round Rock,TX,78681,HCA,H-CWT,Central West Tx,TXI
-18000631,39307,Las Palmas Medical Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,1801 North Oregon Street,El Paso,TX,79902,HCA,H-CWT,Central West Tx,TXB
-18000770,08224,North Austin Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,12221 MoPac Expressway,Austin,TX,78758,HCA,H-CWT,Central West Tx,TXI
-18000494,25960,Heart Hospital of Austin,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,3801 N Lamar Blvd,Austin,TX,78756,HCA,H-CWT,Central West Tx,TXI
-18000221,25473,Central & West  Texas Division Hub Sites,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,"98 San Jacinto Blvd, Suite 1800",Austin,TX,78701,HCA,H-CWT,Central West Tx,*None
-18000208,39309,Del Sol Medical Center (Medical Center East),mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,10301 Gateway West,El Paso,TX,79925,HCA,H-CWT,Central West Tx,TXB
-18000036,25913,Austin Heart,cst,-06:00,Central Time Zone,EPIC,EPIC,1,"7800 Shoal Creek Blvd, Suite 205 N",Austin,TX,78757,HCA,H-CWT,Central West Tx,*None
-18000248,30620,Continental Division Hub Sites,mst,-07:00,Mountain Time Zone,Unknown,Need to Identify,1,"4900 South Monaco Street
-Suite 380",Denver,CO,80237,HCA,H-CON,Continental,*None
-18000432,26330,Wesley Woodlawn Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,2610 North Woodlawn,Wichita,KS,67220,HCA,H-CON,Continental,KSB
-18000678,27400,Medical Center of  Aurora,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,1501 S Potomac St,Aurora,CO,80012,HCA,H-CON,Continental,COA
-18000790,27450,North Suburban Medical Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,9191 Grant St,Thornton,CO,80229,HCA,H-CON,Continental,COA
-18000992,30668,Rose Medical Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,4567 East Ninth Avenue,Denver,CO,80220,HCA,H-CON,Continental,COA
-18001026,08936,Sky Ridge Medical Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,10101 RidgeGate Pkwy,Lone Tree,CO,80124,HCA,H-CON,Continental,COA
-18000910,27200,Presbyterian / St. Luke's Medical Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,1719 E 19th Ave,Denver,CO,80218,HCA,H-CON,Continental,COA
-18001057,27490,Spalding  Rehabilitation,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,900 Potomac St,Denver,CO,80011,HCA,H-CON,Continental,COA
-18001132,27100,Swedish Medical  Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,501 E Hampden Ave,Englewood,CO,80110,HCA,H-CON,Continental,COA
-18001194,31608,Wesley Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,550 N Hillside Street,Wichita,KS,67214,HCA,H-CON,Continental,KSB
-18001198,25501,West Boynton Open Imaging,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,10151 Enterprise Center Blvd,Boynton Beach,FL,33437,HCA,H-EFL,East Florida,*None
-18001212,30908,HCA Florida Westside Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,8201 W Broward Blvd,Plantation,FL,33324,HCA,H-EFL,East Florida,FLB
-18001176,35940,HCA Florida Woodmont Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,7201 N University Dr,Tamarac,FL,33321,HCA,H-EFL,East Florida,FLB
-18000897,37939,HCA Florida Plantation Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,401 NW 42nd Ave,Plantation,FL,33317,HCA,H-EFL,East Florida,FLB
-18000906,30996,HCA Florida St. Lucie Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1800 SE Tiffany Ave,Port St. Luice,FL,34952,HCA,H-EFL,East Florida,FLK
-18000857,03196,Palm Beach Gardens Open Imaging,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3335 Burns Rd. Suite 101,Palm Beach Gardens,FL,33410,HCA,H-EFL,East Florida,FLJ
-18000862,37940,HCA Florida Palms West Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,13001 Southern Blvd,Loxachatchee,FL,33470,HCA,H-EFL,East Florida,FLJ
-18001023,26111,Sisters of Emmanuel,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3663 South Miami Avenue,Miami,FL,33133,HCA,H-EFL,East Florida,FLB
-18000939,30933,HCA Florida Raulerson Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1796 Hwy 441 North,Okeechobee,FL,34972,HCA,H-EFL,East Florida,FLK
-18001422,27550,HCA Florida University Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3476 South University Drive,Davie,FL,33328,HCA,H-EFL,East Florida,FLB
-18001251,26950,HCA Florida Highlands Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3600 South Highlands Avenue,Sebring,FL,33870,HCA,H-EFL,East Florida,FLK
-18000811,30995,HCA Florida Northwest Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2801 N State Rd 7,Margate,FL,33063,HCA,H-EFL,East Florida,FLB
-18000636,30932,HCA Florida Lawnwood Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1700 S 23rd St,Fort Pierce,FL,34954,HCA,H-EFL,East Florida,FLK
-18000722,26110,HCA Florida Mercy Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3663 South Miami Avenue,Miami,FL,33133,HCA,H-EFL,East Florida,FLB
-18000596,03203,Jupiter Open Imaging (OR),est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,"875-N. Military Trail, Suite 101",Jupiter,FL,33458,HCA,H-EFL,East Florida,FLJ
-18000601,35941,HCA Florida Kendall Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,11750 Bird Rd,Miami,FL,33175,HCA,H-EFL,East Florida,FLA
-18000579,08647,Integrated Regional Rapid Response Lab,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,300 East Las Olas Blvd,Ft. Lauderdale,FL,33301,HCA,H-EFL,East Florida,IRL
-18000589,37969,HCA Florida JFK Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,5301 South Congress Ave,Atlantis,FL,33462,HCA,H-EFL,East Florida,FLJ
-18000590,30923,HCA Florida JFK North Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2201 45th St,West Palm Beach,FL,33407,HCA,H-EFL,East Florida,FLJ
-18000249,35979,East Florida Division Hub Sites,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,450 East Las Olas Blvd.. Suite 1100,Ft. Lauderdale,FL,33301,HCA,H-EFL,East Florida,*None
-18000041,30920,HCA Florida Aventura Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,20900 Biscayne Blvd,Aventura,FL,33180,HCA,H-EFL,East Florida,FLE
-18000209,03190,Delray Open Imaging (OR),est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,"4800 Linton Blvd, Bldg C",Delray,FL,33445,HCA,H-EFL,East Florida,FLJ
-18000178,03194,Concept Open Imaging (OR),est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,"2290 10th Ave North, Suite 101",West Palm Beach,FL,33461,HCA,H-EFL,East Florida,FLJ
-18000250,25471,Far West Division Hub Sites,pst,-08:00,Pacific Time Zone,Unknown,Need to Identify,1,"2275 Corporate Circle, Suite 100",Henderson,NV,89074,HCA,H-FWD,Far West,*None
-18000450,30572,Good Samaritan Hospital,pst,-08:00,Pacific Time Zone,MT56,Meditech 5.6,1,2425 Samaritan Dr,San Jose,CA,95124,HCA,H-FWD,Far West,CAA
-18000653,30555,Los Robles Hospital,pst,-08:00,Pacific Time Zone,MT56,Meditech 5.6,1,215 West Janss Rd,Thousand Oaks,CA,91360,HCA,H-FWD,Far West,CAC
-18000956,08385,Regional Medical Center of San Jose,pst,-08:00,Pacific Time Zone,MT56,Meditech 5.6,1,225 North Jackson Ave,San Jose,CA,95116,HCA,H-FWD,Far West,CAA
-18000981,07150,Riverside Community Hospital,pst,-08:00,Pacific Time Zone,MT56,Meditech 5.6,1,4445 Magnolia Ave,Riverside,CA,92501,HCA,H-FWD,Far West,CAC
-18000984,23013,Riverside Imaging Center,pst,-08:00,Pacific Time Zone,Unknown,Need to Identify,1,4000 14th Street Suite 109,Riverside,CA,92501,HCA,H-FWD,Far West,CAC
-18001045,08967,Southern Hills Medical Center (Las Vegas),pst,-08:00,Pacific Time Zone,MT56,Meditech 5.6,1,9300 West Sunset Rd,Las Vegas,NV,89148,HCA,H-FWD,Far West,NVA
-18001202,30504,West Hills Medical Center,pst,-08:00,Pacific Time Zone,MT56,Meditech 5.6,1,7300 Medical Center Dr,West Hills,CA,91307,HCA,H-FWD,Far West,CAC
-18001122,32801,Sunrise Hospital and Medical Center,pst,-08:00,Pacific Time Zone,MT56,Meditech 5.6,1,3186 S Maryland Parkway,Las Vegas,NV,89109,HCA,H-FWD,Far West,NVA
-18001125,32819,Sunrise Mountain View Hospital,pst,-08:00,Pacific Time Zone,MT56,Meditech 5.6,1,3100 N Tenaya Way,Las Vegas,NV,89128,HCA,H-FWD,Far West,NVA
-18001143,39339,Texas Orthopedic Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,7401 South Main,Houston,TX,77030,HCA,H-GCD,Gulf Coast,TXA
-18001148,09309,Thomas Span - Clinic,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,1533 South Brownlee,Corpus Christi,TX,78404,HCA,H-GCD,Gulf Coast,*None
-18001203,34327,HCA Houston Healthcare West,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,12141 Richmond Ave,Houston,TX,77082,HCA,H-GCD,Gulf Coast,TXA
-18001221,34319,Woman's Hospital of Texas,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,7600 Fannin,Houston,TX,77054,HCA,H-GCD,Gulf Coast,TXA
-18001184,37358,Valley Regional Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,100 A Alton Gloor Blvd,Brownsville,TX,78526,HCA,H-GCD,Gulf Coast,TXA
-18001154,26910,HCA Houston Healthcare Tomball,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,605 Holderrieth Blvd,Tomball,TX,77375,HCA,H-GCD,Gulf Coast,TXQ
-18000975,34321,Rio Grande Regional Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,101 E Ridge Rd,McAllen,TX,78503,HCA,H-GCD,Gulf Coast,TXA
-18000890,26516,HCA Houston Healthcare Pearland,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,11100 Shadow Creek Parkway,Pearland,TX,77584,HCA,H-GCD,Gulf Coast,TXA
-18001274,26925,HCA Houston Healthcare Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1313 Hermann Drive,Houston,TX,77004,HCA,H-GCD,Gulf Coast,TXQ
-18001276,26930,Plaza Specialty Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1300 Binz Street,Houston,TX,77004,HCA,H-GCD,Gulf Coast,TXQ
-18001278,26920,HCA Houston Healthcare Northwest,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,710 Cypress Creek Parkway,Houston,TX,77090,HCA,H-GCD,Gulf Coast,TXQ
-18001279,26915,HCA Houston Healthcare Cypress Fairbanks,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,10655 Steepletop Drive,Houston,TX,77065,HCA,H-GCD,Gulf Coast,TXQ
-18001293,26985,HCA Houston Healthcare North Cypress,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,21214 NW Freeway,Cypress,TX,77429,HCA,H-GCD,Gulf Coast,TXQ
-18000659,37333,HCA Houston Healthcare Mainland,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,6801 E.F. Lowry Expwy,Texas City,TX,77591,HCA,H-GCD,Gulf Coast,TXA
-18000604,39233,HCA Houston Healthcare Kingwood,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,22999 Hwy 59 North,Kingwood,TX,77339,HCA,H-GCD,Gulf Coast,TXA
-18000188,08298,Corpus Christi Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,7105 S Padre Island Dr,Corpus Christi,TX,78412,HCA,H-GCD,Gulf Coast,TXA
-18000332,38325,Division - Gulf Coast,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,"12610 West Airport Blvd
-Suite 150",Sugarland,TX,77478,HCA,H-GCD,Gulf Coast,*None
-18000182,38318,HCA Houston Healthcare Conroe,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,504 Medical Center Blvd,Conroe,TX,77304,HCA,H-GCD,Gulf Coast,TXA
-18000135,34336,HCA Houston Healthcare Clear Lake,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,500 Medical Center Blvd,Webster,TX,77598,HCA,H-GCD,Gulf Coast,TXA
-18000054,38340,HCA Houston Healthcare Southeast,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,4000 Spencer Hwy,Pasadena,TX,77504,HCA,H-GCD,Gulf Coast,TXA
-18000185,14203,Corporate Enterprise Site,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,2555 Park Plaza,Nashville,TN,37202,HCA,H-CORP,HCA Corp,*None
-18000438,04446,General Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,2555 Park Plaza,Nashville,TN,37203,HCA,H-CORP,HCA Corp,KYA
-18001310,26249,HealthTrust,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,1100 Charlotte Ave Suite 1100,Nashville,TN,37203,HCA,H-CORP,HCA Corp,*None
-18001272,00958,Physician Services Group - PSG,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,One Park Plaza,Nashville,TN,37202,HCA,H-CORP,HCA Corp,*None
-18000196,08950,SSC - Dallas,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,10030 Macarthur Blvd,Irving,TX,75063,HCA,HSC,HSC,*None
-18000126,26600,SSC - Cincinnati,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,xxx,Cincinnati,OH,x,HCA,HSC,HSC,*None
-18000516,08591,SSC - Atlanta,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,5707 Peachtree Pkwy.,Norcross,GA,30092,HCA,HSC,HSC,*None
-18000518,08948,SSC - Houston,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,8101 W. Sam Houston Parkway,Houston,TX,77072,HCA,HSC,HSC,*None
-18000519,08942,SSC - Nashville,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,552 Metroplex Dr.,Nashville,TN,37211,HCA,HSC,HSC,*None
-18000520,08945,SSC - Orange Park,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,335 Crossing Blvd,Orange Park,FL,32073,HCA,HSC,HSC,*None
-18000521,08648,SSC - Richmond,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,7300 Beaufont Springs Dr.,Richmond,VA,23225,HCA,HSC,HSC,*None
-18000522,08947,SSC - Tampa Bay,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,6451 - 126th Avenue North,Largo,FL,33773,HCA,HSC,HSC,*None
-18000523,08949,SSC - San Antonio,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,6000 Northwest Pkwy. Ste 124,San Antonio,TX,78249,HCA,HSC,HSC,*None
-18000486,24254,HCA MidAmerica North (College Park),cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,10500 Quivira Road,Overland Park,KS,66215,HCA,H-MAD,MidAmerica,*None
-18000608,09721,Lafayette Regional Health Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1500 State Street,Lexington,MO,64067,HCA,H-MAD,MidAmerica,KSA
-18000638,09724,Lee's Summit Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,2100 SE Blue Parkway,Lee's Summit,MO,64063,HCA,H-MAD,MidAmerica,KSA
-18000719,09723,Menorah Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,5721 W. 119th Street,Overland Park,KS,66209,HCA,H-MAD,MidAmerica,KSA
-18000851,09722,Overland Park Reg Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,10500 Quivira,Overland Park,KS,66215,HCA,H-MAD,MidAmerica,KSA
-18000112,25159,Centerpoint Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,19600 E 39th Street,Independence,MO,64057,HCA,H-MAD,MidAmerica,KSA
-18000253,25024,MidAmerica Division Hub Sites,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,129 New Camellia Bldv,Covington,LA,70433,HCA,H-MAD,MidAmerica,*None
-18000960,09728,Belton Regional Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,17065 S. 71 Highway,Kansas City,MO,64012,HCA,H-MAD,MidAmerica,KSA
-18000963,09727,Research Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,2316 E. Meyer Blvd.,Kansas City,MO,64132,HCA,H-MAD,MidAmerica,KSA
-18001005,34407,St. Mark's Hospital,mst,-07:00,Mountain Time Zone,EPIC,EPIC,1,1200 E 3900 South,Salt Lake City,UT,84124,HCA,H-MTN,Mountain,UTA
-18001207,25862,West Valley Imaging,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,3715 W. 4100 S,West Valley,UT,84120,HCA,H-MTN,Mountain,UTA
-18001209,31201,West Valley Medical Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,1717 Arlington Ave,Caldwell,ID,83605,HCA,H-MTN,Mountain,IDB
-18001153,34426,Timpanogos Regional Medical Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,750 W 800 North,Orem,UT,84059,HCA,H-MTN,Mountain,UTA
-18000331,34417,Mountain Division Hub Sites,mst,-07:00,Mountain Time Zone,Unknown,Need to Identify,1,"6360 South 3000 East
-Suite 210",Salt Lake City,UT,84121,HCA,H-MTN,Mountain,*None
-18000356,31202,Eastern Idaho Regional Medical Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,3100 Channing Way,Idaho Falls,ID,83404,HCA,H-MTN,Mountain,IDA
-18000077,34410,Brigham City Community Hospital,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,950 S 500 West,Brigham City,UT,84302,HCA,H-MTN,Mountain,UTA
-18000013,30201,Alaska Regional Hospital,akst,-09:00,Alaska Time Zone,EPIC,EPIC,1,2801 DeBarr Rd,Anchorage,AK,99508,HCA,H-MTN,Mountain,MTN
-18000085,26700,Cache Valley Hospital,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,2380 North 400 East,North Logan,UT,84341,HCA,H-MTN,Mountain,UTA
-18000823,25860,Ogden Imaging Center,mst,-07:00,Mountain Time Zone,Unknown,Need to Identify,1,5322 S. 400 E. Washington Terrace,Ogden,UT,84405,HCA,H-MTN,Mountain,UTA
-18000825,34415,Ogden Regional Medical Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,5475 S 500 East,Ogden,UT,84405,HCA,H-MTN,Mountain,UTA
-18000745,09490,Millcreek Imaging Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,3738 South 900 East,Salt Lake City,UT,84106,HCA,H-MTN,Mountain,UTA
-18000752,34409,Mountain View Hospital,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,1000 E Hwy 6,Payson,UT,84651,HCA,H-MTN,Mountain,UTA
-18000649,25016,Lone Peak Hospital,mst,-07:00,Mountain Time Zone,EPIC,EPIC,1,11620 South State Street,Draper,UT,84020,HCA,H-MTN,Mountain,UTA
-18000621,34411,Lakeview Hospital,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,630 E Medical Dr,Bountiful,UT,84010,HCA,H-MTN,Mountain,UTA
-18001311,27600,North Carolina Division Hub Sites,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,12 Ardmore Street,Asheville,NC,28803,HCA,H-NCD,North Carolina,*None
-18001328,27610,Mission Memorial Hospital,est,-05:00,Eastern Time Zone,Cerner,Cerner,1,509 Biltmore Ave,Ashville,NC,28801,HCA,H-NCD,North Carolina,*None
-18001332,27625,Angel Medical Center,est,-05:00,Eastern Time Zone,Cerner,Cerner,1,120 Riverview Street,Franklin,NC,28734,HCA,H-NCD,North Carolina,*None
-18001333,27635,Blue Ridge Regional Hospital,est,-05:00,Eastern Time Zone,Cerner,Cerner,1,125 Hospital Drive,Spruce Pine,NC,28777,HCA,H-NCD,North Carolina,*None
-18001334,27645,Ashville Specialty Hospital,est,-05:00,Eastern Time Zone,Cerner,Cerner,1,428 Biltmore Ave,Asheville,NC,28801,HCA,H-NCD,North Carolina,*None
-18001335,27620,McDowell Hospital,est,-05:00,Eastern Time Zone,Cerner,Cerner,1,430 Rankin Drive,Marion,NC,28752,HCA,H-NCD,North Carolina,*None
-18001336,27630,Transylvania Community Hospital,est,-05:00,Eastern Time Zone,Cerner,Cerner,1,26 Hospital Drive,Brevard,NC,28712,HCA,H-NCD,North Carolina,*None
-18001337,27640,Highland-Cashiers Hospital,est,-05:00,Eastern Time Zone,Cerner,Cerner,1,190 Hospital Drive,Highlands,NC,28741,HCA,H-NCD,North Carolina,*None
-18001338,27650,CarePartners Rehab Hospital,est,-05:00,Eastern Time Zone,Cerner,Cerner,1,260 Crestland Road,Ashville,NC,28803,HCA,H-NCD,North Carolina,*None
-18001173,30948,Twin Cities Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,2190 Hwy 85 North,Niceville,FL,32578,HCA,H-NFL,North Florida,FLI
-18001353,25736,Invision Imaging Center Lake City,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,"3140 NW Medical Center Lane, Suite 100",Lake City,FL,32055,HCA,H-NFL,North Florida,FLL
-18001354,08906,Invision North Florida Outpatient Imaging Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,6605 NW 9th Blvd,Gainesville,FL,32605,HCA,H-NFL,North Florida,FLL
-18001363,26895,UCF Lake Nona Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,6680 Lake Nona Blvd,Orlando,FL,32827,HCA,H-NFL,North Florida,FLF
-18001200,30928,HCA Florida West Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,8383 Davis Hwy,Pensacola,FL,32514,HCA,H-NFL,North Florida,FLI
-18000900,26450,Poinciana Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,325 Cypress Parkway,Kissimmee,FL,34758,HCA,H-NFL,North Florida,FLF
-18000927,26760,Putnam Community Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,Hwy 20 West,Palatka,FL,32177,HCA,H-NFL,North Florida,FLN
-18000611,37938,Lake City Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,340 NW Commerce Dr.,Lake City,FL,32055,HCA,H-NFL,North Florida,FLL
-18000606,03118,"LAD Imaging LLC, Deltona",est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1555 Saxon Blvd,Deltona,FL,33613,HCA,H-NFL,North Florida,FLF
-18000470,30930,Gulf Coast Medical Center - Panama City,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,449 W 23rd St,Panama City,FL,32405,HCA,H-NFL,North Florida,FLI
-18000854,26750,Oviedo Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,8350 Red Bug Lake Road,Oviedo,FL,32765,HCA,H-NFL,North Florida,FLF
-18000819,30927,Ocala Regional Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1431 SW 1st Ave,Ocala,FL,34474,HCA,H-NFL,North Florida,FLL
-18000848,30902,Osceola Regional Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,700 West Oak St,Kissimmee,FL,34741,HCA,H-NFL,North Florida,FLF
-18000776,03392,North Florida Cancer Center-Live Oak,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1500 Ohio Ave North,Live Oak,FL,32060,HCA,H-NFL,North Florida,FLL
-18000777,03395,North Florida Cancer Center-Lake City,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,795 SW State Road 47,Lake City,FL,32025,HCA,H-NFL,North Florida,FLL
-18000779,03388,North Florida Cancer Center-Tallahassee,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2003 Centre Point Blvd,Tallahassee,FL,32308,HCA,H-NFL,North Florida,FLI
-18000780,25160,North Florida Radiation Oncology - Gainesville,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1021 NW 64th Terrace,Gainesville,FL,32605,HCA,H-NFL,North Florida,FLL
-18000782,30916,North Florida Regional Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,6500 Newberry Rd,Gainesville,FL,32605,HCA,H-NFL,North Florida,FLL
-18000094,30954,HCA Florida Capital Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2626 Capital Medical Blvd,Tallahassee,FL,32308,HCA,H-NFL,North Florida,FLI
-18000005,26114,Advanced Imaging Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,"2300 SE 17th Street, Suite 800",Ocala,FL,34471,HCA,H-NFL,North Florida,FLL
-18000115,30953,Central Florida Regional Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1401 W Seminole Blvd,Sanford,FL,32771,HCA,H-NFL,North Florida,FLF
-18000260,25474,North Florida Division,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,"1701 Hermitage Blvd, Ste 201",Tallahassee,FL,32308,HCA,H-NFL,North Florida,*None
-18000426,30909,Fort Walton Beach Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1000 Marwalt Dr,Fort Walton Beach,FL,32547,HCA,H-NFL,North Florida,FLI
-18000261,31790,North Texas Division Hub Sites,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,"1151 Enterprise Drive, Suite 200A",Coppell,TX,75019,HCA,H-NTX,North Texas,*None
-18000215,38329,Medical City Denton,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,3535 South I-35 East,Denton,TX,76210,HCA,H-NTX,North Texas,TXG
-18000217,03213,Denton Regional Radiation Oncology,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,"3537 S I-35E, Suite 111",Denton,TX,76107,HCA,H-NTX,North Texas,TXG
-18000783,34329,Medical City North Hills,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,4401 Booth Calloway Rd,North Richland Hills,TX,76180,HCA,H-NTX,North Texas,TXG
-18000773,38333,Medical City McKinney,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,4500 Medical Center Dr,McKinney,TX,75069,HCA,H-NTX,North Texas,TXG
-18000675,34372,Medical City Lewisville,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,500 W Main St,Lewisville,TX,75057,HCA,H-NTX,North Texas,TXG
-18000629,06742,Medical City Las Colinas,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,6800 N McArthur Blvd,Irving,TX,75039,HCA,H-NTX,North Texas,TXG
-18000459,07126,Medical City Green Oaks Hosp,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,7808 Clodus Fields Drive,Dallas,TX,75251,HCA,H-NTX,North Texas,TXG
-18000680,25121,Medical City Alliance,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,3101 North Tarrant County Parkway,Fort Worth,TX,76177,HCA,H-NTX,North Texas,TXG
-18000682,34309,Medical Center Arlington,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,3301 Matlock Rd,Arlington,TX,76015,HCA,H-NTX,North Texas,TXG
-18000691,34310,Medical City Plano,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,3901 W 15th St,Plano,TX,75075,HCA,H-NTX,North Texas,TXG
-18000694,34325,Medical City Dallas,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,7777 Forest Lane,Dallas,TX,75230,HCA,H-NTX,North Texas,TXG
-18000695,26790,Medical City Frisco,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,5500 Frisco Square Blvd,Frisco,TX,75034,HCA,H-NTX,North Texas,TXG
-18000937,31840,Rapides Regional Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,211 Fourth St,Alexandria,LA,71301,HCA,H-NTX,North Texas,LAA
-18000898,34318,Medical City Forth Worth,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,900 Eighth Ave,Ft. Worth,TX,76104,HCA,H-NTX,North Texas,TXG
-18001373,27505,North Texas Simulation Center,cst,-06:00,Central Time Zone,None,No EMR,1,"3201 Dallas Pkwy, Suite 900",Frisco,TX,75034,HCA,H-NTX,North Texas,*None
-18001319,26830,Medical City Heart & Spine,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,11990 N Central Expy,Dallas,TX,75243,HCA,H-NTX,North Texas,TXG
-18001234,26935,Medical City Weatherford,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,713 East Anderson Street,Weatherford,TX,76086,HCA,H-NTX,North Texas,TXG
-18001285,01079,IRL - East Florida,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,5361 NW 33rd Avenue,Ft. Lauderdale,FL,33309,HCA,PSG,Physician Services Group,IRL
-18000007,27495,AirLife,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,"750 Potomac Street, Suite 201",Aurora,CO,80011,HCA,PSG,Physician Services Group,COA
-18000264,38307,San Antonio Division Hub Sites,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,8109 Fredericksburg Rd,San Antonio,TX,78229,HCA,H-SAN,San Antonio,*None
-18000726,54327,Methodist Ambulatory Surgery Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,9150 Huebner Rd,San Antonio,TX,78240,HCA,H-SAN,San Antonio,TXF
-18000729,34335,Methodist Speciality and Transplant,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,8026 Floyd Curl Dr,San Antonio,TX,78229,HCA,H-SAN,San Antonio,TXF
-18000732,03132,Methodist Stone Oak Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1139 E. Sonterra Blvd,San Antonio,TX,78258,HCA,H-SAN,San Antonio,TXF
-18000733,26109,Methodist Texsan Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,6700 IH 10 West,San Antonio,TX,78201,HCA,H-SAN,San Antonio,TXF
-18000736,34392,Metropolitan Methodist Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1310 McCullough,San Antonio,TX,78212,HCA,H-SAN,San Antonio,TXF
-18000794,34385,Northeast Methodist Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,12412 Judson Rd,Live Oak,TX,78233,HCA,H-SAN,San Antonio,TXF
-18001250,19678,Cardiology Clinic of San Antonio,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,"4411 Medical Drive, #300",San Antonio,TX,78229,HCA,H-SAN,San Antonio,*None
-18001038,26890,Methodist Hospital South,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1905 Texas 91,Jourdanton,TX,78026,HCA,H-SAN,San Antonio,TXF
-18001227,39385,Womens and Children's Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,7700 Floyd Curl Dr,San Antonio,TX,78229,HCA,H-SAN,San Antonio,TXF
-18001163,34001,Trident Regional Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,9330 Medical Plaza Dr,Charleston,SC,39406,HCA,H-SAD,South Atlantic,SCA
-18001063,36956,Specialty Hospital Jacksonville,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,4901 Richard St P.O. Box 10398,Jacksonville,FL,32207,HCA,H-SAD,South Atlantic,FLH
-18001268,26960,Memorial University Medical Center,est,-05:00,Eastern Time Zone,EPIC,EPIC,1,4700 Waters Avenue,Savannah,GA,31404,HCA,H-SAD,South Atlantic,*None
-18001431,27930,Memorial Health Meadows Hospital,est,-05:00,Eastern Time Zone,MT6x,Meditech 6.x/Expanse,1,One Meadows Parkway,Vidalia,GA,30474,HCA,H-SAD,South Atlantic,HCACRD
-18001459,27995,Live Oak Mental Health and Wellness,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3445 Ingleside Blvd,Ladson,SC,29456,HCA,H-SAD,South Atlantic,SCA
-18000843,30913,Orange Park Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2001 Kingsley Ave,Orange Park,FL,32073,HCA,H-SAD,South Atlantic,FLH
-18000718,26870,Memorial of Satilla,est,-05:00,Eastern Time Zone,MT6x,Meditech 6.x/Expanse,1,1900 Tabeau Street,Waycross,GA,31501,HCA,H-SAD,South Atlantic,HCACRD
-18000710,36957,Memorial Hospital of Jacksonville,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3625 University Blvd,Jacksonville,FL,32216,HCA,H-SAD,South Atlantic,FLH
-18000274,26685,South Atlantic Division Hub Sites,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,115 Central Island St Suite 400,Charleston,SC,29492,HCA,H-SAD,South Atlantic,*None
-18000411,31054,Fairview Park Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,200 Industrial Blvd,Dublin,GA,31021,HCA,H-SAD,South Atlantic,GAA
-18000453,34003,Grand Strand Regional Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,809 82nd Pkwy,Myrtle Beach,SC,29572,HCA,H-SAD,South Atlantic,SCA
-18000034,31003,Doctors Hospital of Augusta,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3651 Wheeler Rd,Augusta,GA,30909,HCA,H-SAD,South Atlantic,GAA
-18000151,34011,Colleton Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,501 Robertson Blvd,Walterboro,SC,29488,HCA,H-SAD,South Atlantic,SCA
-18000078,09799,Brooks Rehab Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3599 University Blvd. South,Jacksonville,FL,32216,HCA,H-SAD,South Atlantic,FLH
-18000396,08756,CSC - Atlanta Warehouse,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,"1500 Southpoint Drive, Suite 100",Forest Park,GA,30297,HCA,CSC,Supply Chain,*None
-18000397,26346,CSC - Denver Warehouse,mst,-07:00,Mountain Time Zone,Unknown,Need to Identify,1,4520 Florence Street,Denver,CO,80247,HCA,CSC,Supply Chain,*None
-18000399,08751,CSC - Tampa Warehouse,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,10094 Premier Parkway,Miramar,FL,33025,HCA,CSC,Supply Chain,*None
-18000400,08754,CSC - Salt Lake Warehouse,mst,-07:00,Mountain Time Zone,Unknown,Need to Identify,1,1120 W. Sportsplexn Drive,Kaysville,UT,84037,HCA,CSC,Supply Chain,*None
-18000401,08750,CSC - Houston Warehouse,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,"12610 W. Airport Blvd, Ste 180",Sugar Land,TX,77478,HCA,CSC,Supply Chain,*None
-18000402,09752,CSC - Kansas City Warehouse,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,10405 W 79th Street,Shawnee,KS,66214,HCA,CSC,Supply Chain,*None
-18000403,07847,CSC - Nashville Warehouse,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,245B Great Circle Road,Nashville,TN,37228,HCA,CSC,Supply Chain,*None
-18000404,08753,CSC - New Orleans Warehouse,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,129 New Camellia Blvd,Covington,LA,70433,HCA,CSC,Supply Chain,*None
-18000405,08749,CSC - Jacksonville Warehouse,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,85011 Westside Industrial Drive,Jacksonville,FL,32219,HCA,CSC,Supply Chain,*None
-18000406,07846,CSC - Dallas Warehouse,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,1151 Enterprise Drive,Coppell,TX,75019,HCA,CSC,Supply Chain,*None
-18000407,07848,CSC - Richmond Warehouse,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,200 Wadsworth Drive,Richmond,VA,23236,HCA,CSC,Supply Chain,*None
-18000408,25748,CSC - San Antonio Warehouse,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,"5919 W Campus Drive, Suite 120",San Antonio,TX,78247,HCA,CSC,Supply Chain,*None
-18000409,08752,CSC - Miami Warehouse,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,"12901 Starkey Road, Suite 1000",Largo,FL,33773,HCA,CSC,Supply Chain,*None
-18000428,31768,Frankfort Regional Medical Center,est,-05:00,Eastern Time Zone,MT6x,Meditech 6.x/Expanse,1,299 Kings Daughters Dr,Frankfort,KY,40601,HCA,H-TRI,Tristar,HCACRD
-18000275,31030,Tristar Division Hub Sites,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,"110 Winners Circle, First Floor",Nashville,TN,37203,HCA,H-TRI,Tristar,*None
-18000117,36244,TriStar Ashland City Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,313 N Main St,Ashland City,TN,37015,HCA,H-TRI,Tristar,TNA
-18000109,34222,Centennial Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,2300 Patterson St,Nashville,TN,37203,HCA,H-TRI,Tristar,TNA
-18000462,31767,Greenview Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1801 Ashley Cir,Bowling Green,KY,42104,HCA,H-TRI,Tristar,TNA
-18000498,34296,Hendersonville Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,355 New Shackle Island Rd,Hendersonville,TN,37075,HCA,H-TRI,Tristar,TNA
-18000512,36243,Horizon Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,111 Hwy 70 East,Dickson,TN,37055,HCA,H-TRI,Tristar,TNA
-18001342,26990,Pinewood Springs,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1001 North James Campbell Boulevard,Columbia,TN,38401,HCA,H-TRI,Tristar,TNA
-18001108,09391,Stonecrest Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,200 Stonecrest Blvd.,Smyrna,TN,37167,HCA,H-TRI,Tristar,TNA
-18001115,34223,Summit Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,5655 Frist Blvd,Hermitage,TN,37076,HCA,H-TRI,Tristar,TNA
-18001139,25070,Skyline Medical Center Madison Campus,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,500 Hospital Drive,Madison,TN,37116,HCA,H-TRI,Tristar,TNA
-18001044,34242,Southern Hills Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,391 Wallace Rd,Nashville,TN,37211,HCA,H-TRI,Tristar,TNA
-18001028,34293,Skyline Medical Center (Nashville Memorial),cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,3441 Dickerson Pike,Nashville,TN,37027,HCA,H-TRI,Tristar,TNA
-18000950,18930,Redmond Regional Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,501 Redmond Rd,Rome,GA,30165,HCA,H-TRI,Tristar,GAA
-18000880,34206,Parkridge East Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,941 Spring Creek Rd,Chattanooga,TN,37412,HCA,H-TRI,Tristar,TNB
-18000881,34224,Parkridge Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2333 McCallie Avenue,Chattanooga,TN,37404,HCA,H-TRI,Tristar,TNB
-18000884,26620,Parkridge West Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1000 Highway 28,Jasper,TN,37347,HCA,H-TRI,Tristar,TNB
-18000860,26536,HCA Florida Pasadena Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1501 Pasadena Ave,Petersburg,FL,33707,HCA,H-WFL,West Florida,FLQ
-18000953,30951,HCA Florida Bayonet Point Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,14000 Fivay Rd,Hudson,FL,34667,HCA,H-WFL,West Florida,FLG
-18001033,37941,HCA Florida South Shore Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,4016 State Rd 674,Sun City Center,FL,33573,HCA,H-WFL,West Florida,FLG
-18001157,27500,HCA Florida West Tampa Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,6001 Webb Road,Tampa,FL,33615,HCA,H-WFL,West Florida,FLQ
-18001120,25558,HCA Florida Largo West Hospital,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,2025 Indian Rocks Road,Largo,FL,33774,HCA,H-WFL,West Florida,FLG
-18001104,30901,HCA Florida St. Petersburg Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,6500 38th Ave North,St. Petersburg,FL,33710,HCA,H-WFL,West Florida,FLG
-18001371,27511,West Florida Simulation Center,est,-05:00,Eastern Time Zone,None,No EMR,1,"560 South Lakewood Dr, Suite 210",Brandon,FL,33511,HCA,H-WFL,West Florida,*None
-18000715,26537,HCA Florida South Tampa Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2901 Swann Ave,Tampa,FL,33609,HCA,H-WFL,West Florida,FLQ
-18000626,30936,HCA Florida Largo Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,201 14th St SW,Largo,FL,33770,HCA,H-WFL,West Florida,FLG
-18000763,30941,HCA Florida Trinity Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,5637 Marine Parkway,New Port Richey,FL,34656,HCA,H-WFL,West Florida,FLG
-18000815,30997,HCA Florida Oak Hill Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,11375 Cortez Blvd,Brooksville,FL,34613,HCA,H-WFL,West Florida,FLG
-18000801,30950,HCA Florida Northside Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,"6000 49th Street, North",St. Petersburg,FL,33709,HCA,H-WFL,West Florida,FLG
-18000073,30917,HCA Florida Brandon Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,119 Oakfield Dr,Brandon,FL,33511,HCA,H-WFL,West Florida,FLG
-18000001,03206,Access Summit Imaging Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,12037 Cortez Blvd,Brooksville,FL,34613,HCA,H-WFL,West Florida,FLG
-18000062,30949,HCA Florida Blake Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2020 59th St West,Bradenton,FL,34209,HCA,H-WFL,West Florida,FLG
-18000127,26670,HCA Florida Citrus Hospital,est,-05:00,Eastern Time Zone,Cerner,Cerner,1,502 W Highland Blvd,Inverness,FL,33763,HCA,H-WFL,West Florida,*None
-18000276,36958,West Florida Division Hub Sites,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,3031 N. Rocky Point Drive West,Tampa,FL,33607,HCA,H-WFL,West Florida,*None
-18000387,35952,HCA Florida Englewood Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,700 Medical Blvd,Englewood,FL,34223,HCA,H-WFL,West Florida,FLC
-18000343,36930,HCA Florida Sarasota Doctors Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,5731 Bee Ridge Rd,Sarasota,FL,34233,HCA,H-WFL,West Florida,FLC
-18000415,35953,HCA Florida Fawcett Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,21298 Olean Blvd NW,Port Charlotte,FL,33949,HCA,H-WFL,West Florida,FLC
+﻿facility_id,facility_coid,facility_name,timezone,tz_utc_offset,tz_description,emr_mnem,emr_name,facility_status,facility_address1,facility_city,facility_state,facility_zip,company_name,division_mnem,division_name,network_meditech_network,Latitude,Longitude
+18000016,34654,LewisGale Alleghany,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1 Alleghany Regional Hospital Lane,Low Moor,VA,24457,HCA,H-CAP,Capital,VAB,37.79202342282108,-79.8809795577571
+18000023,25314,Appomattox Imaging Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,930 S. Ave
+Suite 101,Colonial Heights,VA,23834,HCA,H-CAP,Capital,VAA,37.24303435093707,-77.38991774019478
+18000070,25446,Brambleton Imaging Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,4330 Brambleton Avenue,Roanoke,VA,24018,HCA,H-CAP,Capital,VAB,37.241052972480915,-79.99479881946512
+18000083,9798,Buford Road Imaging,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2612 Burford Road,Richmond,VA,23235,HCA,H-CAP,Capital,VAA,37.53417906644445,-77.56230999061532
+18000118,3449,Chesterfield Imaging,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,13636 Hull Street Road,Midlothian,VA,23112,HCA,H-CAP,Capital,VAA,37.41065746089303,-77.6554737843155
+18000125,34632,Chippenham-Johnston Willis Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1401 Johnston-Willis Drive,Richmond,VA,23235,HCA,H-CAP,Capital,VAA,37.51067405641757,-77.5946447752739
+18000243,25061,Capital Division Hub Sites,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,110 N. Robinson Steet. Suite 201,Richmond,VA,23220,HCA,H-CAP,Capital,*None,37.55361797340477,-77.4731763842664
+18000348,8409,Dominion Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2960 Sleepy Hollow Road,Falls Church,VA,22044,HCA,H-CAP,Capital,VAC,38.87015046279285,-77.15805571753565
+18000501,34634,Henrico Doctors Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1602 Skipwith Rd,Richmond,VA,23229,HCA,H-CAP,Capital,VAA,37.63745682486723,-77.4960311464321
+18000572,23001,Independence Park Imagaing Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,9930 Independence Park Drive,Suite 100,Richmond,VA,23233,HCA,H-CAP,Capital,VAA,37.63691800630625,-77.57083320410341
+18000593,34627,TriCities Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,411 W Randolph Rd,Hopewell,VA,23860,HCA,H-CAP,Capital,VAA,37.307961773735954,-77.29118020411937
+18000641,34630,LewisGale Medical Center - Salem,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1900 Electric Rd,Salem,VA,24153,HCA,H-CAP,Capital,VAB,37.264079428103976,-80.03231823295712
+18000749,34610,LewisGale Montgomery,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3700 S Main St,Blacksburg,VA,24060,HCA,H-CAP,Capital,VAB,37.18745272296575,-80.41084025994697
+18000877,32905,Parkland Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1 Parkland Dr,Derry,NH,03038,HCA,H-CAP,Capital,NHA,42.87732020461039,-71.31646920383234
+18000909,32902,Portsmouth Regional Medical Ctr.,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,333 Borthwick Ave,Portsmouth,NH,03801,HCA,H-CAP,Capital,NHA,43.064881815728874,-70.79027556149339
+18000925,34605,LewisGale Pulaski,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2400 Lee Hwy,Pulaski,VA,24301,HCA,H-CAP,Capital,VAB,37.06838316524028,-80.75707291947342
+18000969,8540,Reston Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1850 Town Center Pkwy,Reston,VA,20190,HCA,H-CAP,Capital,VAC,38.96276309434347,-77.36388235985973
+18001065,25325,Spotsylvania Regional Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,4600 Spotsylvania Parkway,Fredericksburg,VA,22408,HCA,H-CAP,Capital,VAA,38.218018015459755,-77.49635750592446
+18001107,26630,Stone Springs Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,24440 Stone Springs Blvd,Dulles,VA,20166,HCA,H-CAP,Capital,VAC,38.94061341410771,-77.54235174451826
+18001141,31408,Terre Haute Regional Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3901 S 7th St,Terre Haute,IN,47802,HCA,H-CAP,Capital,INA,39.41937871287647,-87.40928550401487
+18001361,27720,Frisbie Memorial Hospital,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,11 Whitehall Road,Rochester,NH,27720,HCA,H-CAP,Capital,*None,43.29829529684021,-70.96080333264487
+18001461,27720,Frisbie Memorial Hospital (EXP),est,-05:00,Eastern Time Zone,MTX,Meditech Expanse GCP,1,11 Whitehall Road,Rochester,NH,27720,HCA,H-CAP,Capital,HCANH,43.29829529684021,-70.96080333264487
+18001470,32902,Portsmouth Regional Medical Center (EXP),est,-05:00,Eastern Time Zone,MTX,Meditech Expanse GCP,1,333 Borthwick,Portsmouth,NH,03801,HCA,H-CAP,Capital,HCANH,43.0649445219604,-70.79029701916467
+18001471,32905,Parkland Medical Center (EXP),est,-05:00,Eastern Time Zone,MTX,Meditech Expanse GCP,1,1 Parkland Dr,Derry,NH,03038,HCA,H-CAP,Capital,HCANH,42.877343791274384,-71.31652284801054
+18001082,25067,St. David's Georgetown Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,2000 Scenic Drive,Georgetown,TX,78626,HCA,H-CWT,Central West Tx,TXI,30.626109794230366,-97.68854727557772
+18001084,6676,St. David's Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,919 E 32nd St,Austin,TX,78705,HCA,H-CWT,Central West Tx,TXI,30.29007694486936,-97.72653420442663
+18001087,34320,St. David's South Hospital (South Austin Hosp),cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,901 West Ben White Blvd,Austin,TX,78704,HCA,H-CWT,Central West Tx,TXI,30.226272468143037,-97.77456740442912
+18001089,26825,St. David's Surgical Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1210 West Henna Blvd,Austin,TX,78664,HCA,H-CWT,Central West Tx,TXI,30.47925038350993,-97.67983311791224
+18000996,37381,Round Rock Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,2400 Round Rock Ave,Round Rock,TX,78681,HCA,H-CWT,Central West Tx,TXI,30.511368354904665,-97.71439914859609
+18000631,39307,Las Palmas Medical Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,1801 North Oregon Street,El Paso,TX,79902,HCA,H-CWT,Central West Tx,TXB,31.770080584456355,-106.4990609149569
+18000770,8224,North Austin Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,12221 MoPac Expressway,Austin,TX,78758,HCA,H-CWT,Central West Tx,TXI,30.412041822164298,-97.70567739092873
+18000494,25960,Heart Hospital of Austin,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,3801 N Lamar Blvd,Austin,TX,78756,HCA,H-CWT,Central West Tx,TXI,30.30598335217996,-97.74100151791906
+18000221,25473,Central & West  Texas Division Hub Sites,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,98 San Jacinto Blvd,Suite 1800,Austin,TX,78701,HCA,H-CWT,Central West Tx,*None,30.26167901135539,-97.74175510442775
+18000208,39309,Del Sol Medical Center (Medical Center East),mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,10301 Gateway West,El Paso,TX,79925,HCA,H-CWT,Central West Tx,TXB,31.756716426845504,-106.3495171332033
+18000036,25913,Austin Heart,cst,-06:00,Central Time Zone,EPIC,EPIC,1,7800 Shoal Creek Blvd,Suite 205 N,Austin,TX,78757,HCA,H-CWT,Central West Tx,*None,30.360449552622104,-97.7422577774377
+18000248,30620,Continental Division Hub Sites,mst,-07:00,Mountain Time Zone,Unknown,Need to Identify,1,4900 South Monaco Street
+Suite 380,Denver,CO,80237,HCA,H-CON,Continental,*None,39.62617658906709,-104.91078614633304
+18000432,26330,Wesley Woodlawn Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,2610 North Woodlawn,Wichita,KS,67220,HCA,H-CON,Continental,KSB,37.731334837214895,-97.26048471944138
+18000678,27400,Medical Center of  Aurora,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,1501 S Potomac St,Aurora,CO,80012,HCA,H-CON,Continental,COA,39.68986058323504,-104.83219819235748
+18000790,27450,North Suburban Medical Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,9191 Grant St,Thornton,CO,80229,HCA,H-CON,Continental,COA,39.86367859890173,-104.98575181933477
+18000992,30668,Rose Medical Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,4567 East Ninth Avenue,Denver,CO,80220,HCA,H-CON,Continental,COA,39.73233348779369,-104.93404970399895
+18001026,8936,Sky Ridge Medical Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,10101 RidgeGate Pkwy,Lone Tree,CO,80124,HCA,H-CON,Continental,COA,39.52922309898903,-104.87121200400928
+18000910,27200,Presbyterian / St. Luke's Medical Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,1719 E 19th Ave,Denver,CO,80218,HCA,H-CON,Continental,COA,39.74719985402052,-104.96738590399816
+18001057,27490,Spalding  Rehabilitation,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,900 Potomac St,Denver,CO,80011,HCA,H-CON,Continental,COA,39.73124938597621,-104.82731280399902
+18001132,27100,Swedish Medical  Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,501 E Hampden Ave,Englewood,CO,80110,HCA,H-CON,Continental,COA,39.65367675713186,-104.98102786167422
+18001194,31608,Wesley Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,550 N Hillside Street,Wichita,KS,67214,HCA,H-CON,Continental,KSB,37.696560211640374,-97.29874020594998
+18001198,25501,West Boynton Open Imaging,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,10151 Enterprise Center Blvd,Boynton Beach,FL,33437,HCA,H-EFL,East Florida,*None,26.618663493738094,-80.1522320333975
+18001212,30908,HCA Florida Westside Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,8201 W Broward Blvd,Plantation,FL,33324,HCA,H-EFL,East Florida,FLB,26.12372600114452,-80.2595334622499
+18001176,35940,HCA Florida Woodmont Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,7201 N University Dr,Tamarac,FL,33321,HCA,H-EFL,East Florida,FLB,26.21214143681704,-80.25421778923305
+18000897,37939,HCA Florida Plantation Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,401 NW 42nd Ave,Plantation,FL,33317,HCA,H-EFL,East Florida,FLB,26.126570005356335,-80.20538220457854
+18000906,30996,HCA Florida St. Lucie Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1800 SE Tiffany Ave,Port St. Luice,FL,34952,HCA,H-EFL,East Florida,FLK,27.288620003066608,-80.29402824871671
+18000857,3196,Palm Beach Gardens Open Imaging,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3335 Burns Rd. Suite 101,Palm Beach Gardens,FL,33410,HCA,H-EFL,East Florida,FLJ,26.831289314380523,-80.08408750455445
+18000862,37940,HCA Florida Palms West Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,13001 Southern Blvd,Loxachatchee,FL,33470,HCA,H-EFL,East Florida,FLJ,26.68384859737658,-80.25261640455957
+18001023,26111,Sisters of Emmanuel,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3663 South Miami Avenue,Miami,FL,33133,HCA,H-EFL,East Florida,FLB,25.74013051264245,-80.21351527575581
+18000939,30933,HCA Florida Raulerson Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1796 Hwy 441 North,Okeechobee,FL,34972,HCA,H-EFL,East Florida,FLK,27.25989796103201,-80.82846764686823
+18001422,27550,HCA Florida University Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3476 South University Drive,Davie,FL,33328,HCA,H-EFL,East Florida,FLB,26.078145845729818,-80.25108017759405
+18001251,26950,HCA Florida Highlands Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3600 South Highlands Avenue,Sebring,FL,33870,HCA,H-EFL,East Florida,FLK,27.46585146520101,-81.43305966405295
+18000811,30995,HCA Florida Northwest Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2801 N State Rd 7,Margate,FL,33063,HCA,H-EFL,East Florida,FLB,26.263218181259553,-80.20279863340954
+18000636,30932,HCA Florida Lawnwood Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1700 S 23rd St,Fort Pierce,FL,34954,HCA,H-EFL,East Florida,FLK,27.431685442896406,-80.34538587198222
+18000722,26110,HCA Florida Mercy Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3663 South Miami Avenue,Miami,FL,33133,HCA,H-EFL,East Florida,FLB,25.74016916962143,-80.21359037760529
+18000596,3203,Jupiter Open Imaging (OR),est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,875-N. Military Trail,Suite 101,Jupiter,FL,33458,HCA,H-EFL,East Florida,FLJ,26.915222710002187,-80.10131719105851
+18000601,35941,HCA Florida Kendall Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,11750 Bird Rd,Miami,FL,33175,HCA,H-EFL,East Florida,FLA,25.731756491625994,-80.38591884876993
+18000579,8647,Integrated Regional Rapid Response Lab,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,300 East Las Olas Blvd,Ft. Lauderdale,FL,33301,HCA,H-EFL,East Florida,IRL,26.1193331416052,-80.14046343341442
+18000589,37969,HCA Florida JFK Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,5301 South Congress Ave,Atlantis,FL,33462,HCA,H-EFL,East Florida,FLJ,26.59865818377437,-80.09183241805557
+18000590,30923,HCA Florida JFK North Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2201 45th St,West Palm Beach,FL,33407,HCA,H-EFL,East Florida,FLJ,26.76176045275873,-80.08776881804997
+18000249,35979,East Florida Division Hub Sites,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,450 East Las Olas Blvd.. Suite 1100,Ft. Lauderdale,FL,33301,HCA,H-EFL,East Florida,*None,26.11903214202718,-80.13873938923618
+18000041,30920,HCA Florida Aventura Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,20900 Biscayne Blvd,Aventura,FL,33180,HCA,H-EFL,East Florida,FLE,25.970291795407253,-80.14518549109067
+18000209,3190,Delray Open Imaging (OR),est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,4800 Linton Blvd,Bldg C,Delray,FL,33445,HCA,H-EFL,East Florida,FLJ,26.438183371704604,-80.11838790456798
+18000178,3194,Concept Open Imaging (OR),est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,2290 10th Ave North,Suite 101,West Palm Beach,FL,33461,HCA,H-EFL,East Florida,FLJ,26.627325477235846,-80.07693571990404
+18000250,25471,Far West Division Hub Sites,pst,-08:00,Pacific Time Zone,Unknown,Need to Identify,1,2275 Corporate Circle,Suite 100,Henderson,NV,89074,HCA,H-FWD,Far West,*None,36.02704267139581,-115.08894860418006
+18000450,30572,Good Samaritan Hospital,pst,-08:00,Pacific Time Zone,MT56,Meditech 5.6,1,2425 Samaritan Dr,San Jose,CA,95124,HCA,H-FWD,Far West,CAA,37.25184141181415,-121.94673181946465
+18000653,30555,Los Robles Hospital,pst,-08:00,Pacific Time Zone,MT56,Meditech 5.6,1,215 West Janss Rd,Thousand Oaks,CA,91360,HCA,H-FWD,Far West,CAC,34.206859429151365,-118.88308980426288
+18000956,8385,Regional Medical Center of San Jose,pst,-08:00,Pacific Time Zone,MT56,Meditech 5.6,1,225 North Jackson Ave,San Jose,CA,95116,HCA,H-FWD,Far West,CAA,37.362342111025626,-121.84898816178794
+18000981,7150,Riverside Community Hospital,pst,-08:00,Pacific Time Zone,MT56,Meditech 5.6,1,4445 Magnolia Ave,Riverside,CA,92501,HCA,H-FWD,Far West,CAC,33.97728355211724,-117.38158013310867
+18000984,23013,Riverside Imaging Center,pst,-08:00,Pacific Time Zone,Unknown,Need to Identify,1,4000 14th Street Suite 109,Riverside,CA,92501,HCA,H-FWD,Far West,CAC,33.97705914631559,-117.382326804273
+18001045,8967,Southern Hills Medical Center (Las Vegas),pst,-08:00,Pacific Time Zone,MT56,Meditech 5.6,1,9300 West Sunset Rd,Las Vegas,NV,89148,HCA,H-FWD,Far West,NVA,36.07243160347625,-115.29497433301367
+18001202,30504,West Hills Medical Center,pst,-08:00,Pacific Time Zone,MT56,Meditech 5.6,1,7300 Medical Center Dr,West Hills,CA,91307,HCA,H-FWD,Far West,CAC,34.20303983277139,-118.62909873309877
+18001122,32801,Sunrise Hospital and Medical Center,pst,-08:00,Pacific Time Zone,MT56,Meditech 5.6,1,3186 S Maryland Parkway,Las Vegas,NV,89109,HCA,H-FWD,Far West,NVA,36.13279335903263,-115.1358216753395
+18001125,32819,Sunrise Mountain View Hospital,pst,-08:00,Pacific Time Zone,MT56,Meditech 5.6,1,3100 N Tenaya Way,Las Vegas,NV,89128,HCA,H-FWD,Far West,NVA,36.21558885254024,-115.24884081951379
+18001143,39339,Texas Orthopedic Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,7401 South Main,Houston,TX,77030,HCA,H-GCD,Gulf Coast,TXA,29.7008536330873,-95.40961360444956
+18001148,9309,Thomas Span - Clinic,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,1533 South Brownlee,Corpus Christi,TX,78404,HCA,H-GCD,Gulf Coast,*None,27.77511553234526,-97.40496530452116
+18001203,34327,HCA Houston Healthcare West,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,12141 Richmond Ave,Houston,TX,77082,HCA,H-GCD,Gulf Coast,TXA,29.728227136702372,-95.59389940314577
+18001221,34319,Woman's Hospital of Texas,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,7600 Fannin,Houston,TX,77054,HCA,H-GCD,Gulf Coast,TXA,29.69427307480149,-95.4017108044498
+18001184,37358,Valley Regional Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,100 A Alton Gloor Blvd,Brownsville,TX,78526,HCA,H-GCD,Gulf Coast,TXA,25.9780824461125,-97.51465586225481
+18001154,26910,HCA Houston Healthcare Tomball,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,605 Holderrieth Blvd,Tomball,TX,77375,HCA,H-GCD,Gulf Coast,TXQ,30.08745119114967,-95.62362803327018
+18000975,34321,Rio Grande Regional Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,101 E Ridge Rd,McAllen,TX,78503,HCA,H-GCD,Gulf Coast,TXA,26.186524998333443,-98.22072923341216
+18000890,26516,HCA Houston Healthcare Pearland,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,11100 Shadow Creek Parkway,Pearland,TX,77584,HCA,H-GCD,Gulf Coast,TXA,29.577127067523538,-95.39030169096124
+18001274,26925,HCA Houston Healthcare Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1313 Hermann Drive,Houston,TX,77004,HCA,H-GCD,Gulf Coast,TXQ,29.72273860968597,-95.38756426211997
+18001276,26930,Plaza Specialty Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1300 Binz Street,Houston,TX,77004,HCA,H-GCD,Gulf Coast,TXQ,29.723590778403054,-95.38699616211991
+18001278,26920,HCA Houston Healthcare Northwest,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,710 Cypress Creek Parkway,Houston,TX,77090,HCA,H-GCD,Gulf Coast,TXQ,30.02046936447125,-95.44256020443717
+18001279,26915,HCA Houston Healthcare Cypress Fairbanks,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,10655 Steepletop Drive,Houston,TX,77065,HCA,H-GCD,Gulf Coast,TXQ,29.928068369509532,-95.58899140444076
+18001293,26985,HCA Houston Healthcare North Cypress,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,21214 NW Freeway,Cypress,TX,77429,HCA,H-GCD,Gulf Coast,TXQ,29.925046668814975,-95.63070306211216
+18000659,37333,HCA Houston Healthcare Mainland,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,6801 E.F. Lowry Expwy,Texas City,TX,77591,HCA,H-GCD,Gulf Coast,TXA,29.39878411221552,-95.00205506386064
+18000604,39233,HCA Houston Healthcare Kingwood,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,22999 Hwy 59 North,Kingwood,TX,77339,HCA,H-GCD,Gulf Coast,TXA,30.050134168931915,-95.25524366210732
+18000188,8298,Corpus Christi Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,7105 S Padre Island Dr,Corpus Christi,TX,78412,HCA,H-GCD,Gulf Coast,TXA,27.694643575907534,-97.34465927568841
+18000332,38325,Division - Gulf Coast,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,12610 West Airport Blvd
+Suite 150,Sugarland,TX,77478,HCA,H-GCD,Gulf Coast,*None,29.648234296162972,-95.60324317561593
+18000182,38318,HCA Houston Healthcare Conroe,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,504 Medical Center Blvd,Conroe,TX,77304,HCA,H-GCD,Gulf Coast,TXA,30.284808198142404,-95.4673900755912
+18000135,34336,HCA Houston Healthcare Clear Lake,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,500 Medical Center Blvd,Webster,TX,77598,HCA,H-GCD,Gulf Coast,TXA,29.541129052790623,-95.1280364332867
+18000054,38340,HCA Houston Healthcare Southeast,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,4000 Spencer Hwy,Pasadena,TX,77504,HCA,H-GCD,Gulf Coast,TXA,29.661337905067324,-95.1837937332867
+18000185,14203,Corporate Enterprise Site,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,2555 Park Plaza,Nashville,TN,37202,HCA,H-CORP,HCA Corp,*None,36.14950006242981,-86.81951263301002
+18000438,4446,General Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,2555 Park Plaza,Nashville,TN,37203,HCA,H-CORP,HCA Corp,KYA,36.14950006242981,-86.81951263301002
+18001310,26249,HealthTrust,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,1100 Charlotte Ave Suite 1100,Nashville,TN,37203,HCA,H-CORP,HCA Corp,*None,36.16230431545237,-86.79152217533813
+18001272,958,Physician Services Group - PSG,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,One Park Plaza,Nashville,TN,37202,HCA,H-CORP,HCA Corp,*None,36.15371202389697,-86.81380677533852
+18000196,8950,SSC - Dallas,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,10030 Macarthur Blvd,Irving,TX,75063,HCA,HSC,HSC,*None,32.94193273184954,-96.95098411966046
+18000126,26600,SSC - Cincinnati,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,xxx,Cincinnati,OH,x,HCA,HSC,HSC,*None,39.123852254790414,-84.65689870425575
+18000516,8591,SSC - Atlanta,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,5707 Peachtree Pkwy.,Norcross,GA,30092,HCA,HSC,HSC,*None,33.96467214788521,-84.22566733310923
+18000518,8948,SSC - Houston,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,8101 W. Sam Houston Parkway,Houston,TX,77072,HCA,HSC,HSC,*None,29.692058796720712,-95.55605667561426
+18000519,8942,SSC - Nashville,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,552 Metroplex Dr.,Nashville,TN,37211,HCA,HSC,HSC,*None,36.09429588900148,-86.70253357534129
+18000520,8945,SSC - Orange Park,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,335 Crossing Blvd,Orange Park,FL,32073,HCA,HSC,HSC,*None,30.187933512891643,-81.71588950443063
+18000521,8648,SSC - Richmond,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,7300 Beaufont Springs Dr.,Richmond,VA,23225,HCA,HSC,HSC,*None,37.506197971560816,-77.52817560410969
+18000522,8947,SSC - Tampa Bay,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,6451 - 126th Avenue North,Largo,FL,33773,HCA,HSC,HSC,*None,27.888178904248683,-82.7248513045171
+18000523,8949,SSC - San Antonio,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,6000 Northwest Pkwy. Ste 124,San Antonio,TX,78249,HCA,HSC,HSC,*None,29.55165790658969,-98.5983173909622
+18000486,24254,HCA MidAmerica North (College Park),cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,10500 Quivira Road,Overland Park,KS,66215,HCA,H-MAD,MidAmerica,*None,38.93884354218041,-94.72359557520349
+18000608,9721,Lafayette Regional Health Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1500 State Street,Lexington,MO,64067,HCA,H-MAD,MidAmerica,KSA,39.18980684177191,-93.87722340402648
+18000638,9724,Lee's Summit Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,2100 SE Blue Parkway,Lee's Summit,MO,64063,HCA,H-MAD,MidAmerica,KSA,38.9040200110255,-94.33307440404089
+18000719,9723,Menorah Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,5721 W. 119th Street,Overland Park,KS,66209,HCA,H-MAD,MidAmerica,KSA,38.91061939775002,-94.6515842328762
+18000851,9722,Overland Park Reg Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,10500 Quivira,Overland Park,KS,66215,HCA,H-MAD,MidAmerica,KSA,38.937658733457,-94.72616900403919
+18000112,25159,Centerpoint Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,19600 E 39th Street,Independence,MO,64057,HCA,H-MAD,MidAmerica,KSA,39.04963088803733,-94.34847849054046
+18000253,25024,MidAmerica Division Hub Sites,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,129 New Camellia Bldv,Covington,LA,70433,HCA,H-MAD,MidAmerica,*None,30.455243711519756,-90.17318937558454
+18000960,9728,Belton Regional Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,17065 S. 71 Highway,Kansas City,MO,64012,HCA,H-MAD,MidAmerica,KSA,38.81596638837965,-94.50307650404523
+18000963,9727,Research Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,2316 E. Meyer Blvd.,Kansas City,MO,64132,HCA,H-MAD,MidAmerica,KSA,39.007933104175365,-94.55803440403565
+18001005,34407,St. Mark's Hospital,mst,-07:00,Mountain Time Zone,EPIC,EPIC,1,1200 E 3900 South,Salt Lake City,UT,84124,HCA,H-MTN,Mountain,UTA,40.68612711378197,-111.85725011929217
+18001207,25862,West Valley Imaging,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,3715 W. 4100 S,West Valley,UT,84120,HCA,H-MTN,Mountain,UTA,40.681294969471274,-111.97931233278557
+18001209,31201,West Valley Medical Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,1717 Arlington Ave,Caldwell,ID,83605,HCA,H-MTN,Mountain,IDB,43.65460888324582,-116.69408601728249
+18001153,34426,Timpanogos Regional Medical Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,750 W 800 North,Orem,UT,84059,HCA,H-MTN,Mountain,UTA,40.31291925735089,-111.71287070396909
+18000331,34417,Mountain Division Hub Sites,mst,-07:00,Mountain Time Zone,Unknown,Need to Identify,1,6360 South 3000 East
+Suite 210,Salt Lake City,UT,84121,HCA,H-MTN,Mountain,*None,40.63404433289029,-111.80672870395232
+18000356,31202,Eastern Idaho Regional Medical Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,3100 Channing Way,Idaho Falls,ID,83404,HCA,H-MTN,Mountain,IDA,43.470004761451264,-111.99216757496407
+18000077,34410,Brigham City Community Hospital,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,950 S 500 West,Brigham City,UT,84302,HCA,H-MTN,Mountain,UTA,41.49300132535611,-112.02400281924966
+18000013,30201,Alaska Regional Hospital,akst,-09:00,Alaska Time Zone,EPIC,EPIC,1,2801 DeBarr Rd,Anchorage,AK,99508,HCA,H-MTN,Mountain,MTN,61.21064637705136,-149.82854586032707
+18000085,26700,Cache Valley Hospital,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,2380 North 400 East,North Logan,UT,84341,HCA,H-MTN,Mountain,UTA,41.775556281557,-111.82135527505642
+18000823,25860,Ogden Imaging Center,mst,-07:00,Mountain Time Zone,Unknown,Need to Identify,1,5322 S. 400 E. Washington Terrace,Ogden,UT,84405,HCA,H-MTN,Mountain,UTA,41.16717481381278,-111.97014512906112
+18000825,34415,Ogden Regional Medical Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,5475 S 500 East,Ogden,UT,84405,HCA,H-MTN,Mountain,UTA,41.16461883274395,-111.97033163276015
+18000745,9490,Millcreek Imaging Center,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,3738 South 900 East,Salt Lake City,UT,84106,HCA,H-MTN,Mountain,UTA,40.69018514690136,-111.86607390394944
+18000752,34409,Mountain View Hospital,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,1000 E Hwy 6,Payson,UT,84651,HCA,H-MTN,Mountain,UTA,40.04372873901718,-111.71653993281863
+18000649,25016,Lone Peak Hospital,mst,-07:00,Mountain Time Zone,EPIC,EPIC,1,11620 South State Street,Draper,UT,84020,HCA,H-MTN,Mountain,UTA,40.540286651791256,-111.89136670395719
+18000621,34411,Lakeview Hospital,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,630 E Medical Dr,Bountiful,UT,84010,HCA,H-MTN,Mountain,UTA,40.88593930483278,-111.86902273277482
+18001311,27600,North Carolina Division Hub Sites,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,12 Ardmore Street,Asheville,NC,28803,HCA,H-NCD,North Carolina,*None,35.54207516244629,-82.5283533330382
+18001328,27610,Mission Memorial Hospital,est,-05:00,Eastern Time Zone,Cerner,Cerner,1,509 Biltmore Ave,Ashville,NC,28801,HCA,H-NCD,North Carolina,*None,35.576902303347964,-82.54919316187222
+18001332,27625,Angel Medical Center,est,-05:00,Eastern Time Zone,Cerner,Cerner,1,120 Riverview Street,Franklin,NC,28734,HCA,H-NCD,North Carolina,*None,35.184909465184894,-83.37887696189019
+18001333,27635,Blue Ridge Regional Hospital,est,-05:00,Eastern Time Zone,Cerner,Cerner,1,125 Hospital Drive,Spruce Pine,NC,28777,HCA,H-NCD,North Carolina,*None,35.91078573100602,-82.06296973302109
+18001334,27645,Ashville Specialty Hospital,est,-05:00,Eastern Time Zone,Cerner,Cerner,1,428 Biltmore Ave,Asheville,NC,28801,HCA,H-NCD,North Carolina,*None,35.580608224104544,-82.55010529070768
+18001335,27620,McDowell Hospital,est,-05:00,Eastern Time Zone,Cerner,Cerner,1,430 Rankin Drive,Marion,NC,28752,HCA,H-NCD,North Carolina,*None,35.66340815614919,-82.02826300419696
+18001336,27630,Transylvania Community Hospital,est,-05:00,Eastern Time Zone,Cerner,Cerner,1,26 Hospital Drive,Brevard,NC,28712,HCA,H-NCD,North Carolina,*None,35.25649897729997,-82.71188840421561
+18001337,27640,Highland-Cashiers Hospital,est,-05:00,Eastern Time Zone,Cerner,Cerner,1,190 Hospital Drive,Highlands,NC,28741,HCA,H-NCD,North Carolina,*None,35.08634742766162,-83.18611081956594
+18001338,27650,CarePartners Rehab Hospital,est,-05:00,Eastern Time Zone,Cerner,Cerner,1,260 Crestland Road,Ashville,NC,28803,HCA,H-NCD,North Carolina,*None,35.55917726573843,-82.53192760420174
+18001173,30948,Twin Cities Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,2190 Hwy 85 North,Niceville,FL,32578,HCA,H-NFL,North Florida,FLI,30.53383374427053,-86.49546940441704
+18001353,25736,Invision Imaging Center Lake City,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3140 NW Medical Center Lane,Suite 100,Lake City,FL,32055,HCA,H-NFL,North Florida,FLL,30.18228232086341,-82.68771511792396
+18001354,8906,Invision North Florida Outpatient Imaging Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,6605 NW 9th Blvd,Gainesville,FL,32605,HCA,H-NFL,North Florida,FLL,29.663110412094134,-82.41273974677975
+18001363,26895,UCF Lake Nona Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,6680 Lake Nona Blvd,Orlando,FL,32827,HCA,H-NFL,North Florida,FLF,28.36865417780574,-81.28639500449958
+18001200,30928,HCA Florida West Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,8383 Davis Hwy,Pensacola,FL,32514,HCA,H-NFL,North Florida,FLI,30.51652247366876,-87.21749979092462
+18000900,26450,Poinciana Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,325 Cypress Parkway,Kissimmee,FL,34758,HCA,H-NFL,North Florida,FLF,28.144857416889625,-81.47680397567214
+18000927,26760,Putnam Community Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,Hwy 20 West,Palatka,FL,32177,HCA,H-NFL,North Florida,FLN,30.43013883186194,-85.60954952649914
+18000611,37938,Lake City Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,340 NW Commerce Dr.,Lake City,FL,32055,HCA,H-NFL,North Florida,FLL,30.183632294309668,-82.68763071792392
+18000606,3118,LAD Imaging LLC,Deltona,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1555 Saxon Blvd,Deltona,FL,33613,HCA,H-NFL,North Florida,FLF,28.904900590565084,-81.24492347564417
+18000470,30930,Gulf Coast Medical Center - Panama City,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,449 W 23rd St,Panama City,FL,32405,HCA,H-NFL,North Florida,FLI,30.18839252883099,-85.66467239093751
+18000854,26750,Oviedo Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,8350 Red Bug Lake Road,Oviedo,FL,32765,HCA,H-NFL,North Florida,FLF,28.65616105208017,-81.2280081468177
+18000819,30927,Ocala Regional Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1431 SW 1st Ave,Ocala,FL,34474,HCA,H-NFL,North Florida,FLL,29.175625552058488,-82.13679983330522
+18000848,30902,Osceola Regional Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,700 West Oak St,Kissimmee,FL,34741,HCA,H-NFL,North Florida,FLF,28.299590780860452,-81.40953583333783
+18000776,3392,North Florida Cancer Center-Live Oak,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1500 Ohio Ave North,Live Oak,FL,32060,HCA,H-NFL,North Florida,FLL,30.310198059772485,-82.9753582197684
+18000777,3395,North Florida Cancer Center-Lake City,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,795 SW State Road 47,Lake City,FL,32025,HCA,H-NFL,North Florida,FLL,30.160364233250732,-82.64454029093864
+18000779,3388,North Florida Cancer Center-Tallahassee,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2003 Centre Point Blvd,Tallahassee,FL,32308,HCA,H-NFL,North Florida,FLI,30.47264594352703,-84.23717620441943
+18000780,25160,North Florida Radiation Oncology - Gainesville,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1021 NW 64th Terrace,Gainesville,FL,32605,HCA,H-NFL,North Florida,FLL,29.66306143495709,-82.41015036212228
+18000782,30916,North Florida Regional Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,6500 Newberry Rd,Gainesville,FL,32605,HCA,H-NFL,North Florida,FLL,29.660410975183385,-82.41157240445106
+18000094,30954,HCA Florida Capital Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2626 Capital Medical Blvd,Tallahassee,FL,32308,HCA,H-NFL,North Florida,FLI,30.47605540060711,-84.2319960044193
+18000005,26114,Advanced Imaging Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2300 SE 17th Street,Suite 800,Ocala,FL,34471,HCA,H-NFL,North Florida,FLL,29.170715824663144,-82.10692901796287
+18000115,30953,Central Florida Regional Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1401 W Seminole Blvd,Sanford,FL,32771,HCA,H-NFL,North Florida,FLF,28.814807479337947,-81.28367333331875
+18000260,25474,North Florida Division,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,1701 Hermitage Blvd,Ste 201,Tallahassee,FL,32308,HCA,H-NFL,North Florida,*None,30.487483183951408,-84.2475712044189
+18000426,30909,Fort Walton Beach Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1000 Marwalt Dr,Fort Walton Beach,FL,32547,HCA,H-NFL,North Florida,FLI,30.454864663271792,-86.63371100442009
+18000261,31790,North Texas Division Hub Sites,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,1151 Enterprise Drive,Suite 200A,Coppell,TX,75019,HCA,H-NTX,North Texas,*None,32.94107873315431,-97.00394158897542
+18000215,38329,Medical City Denton,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,3535 South I-35 East,Denton,TX,76210,HCA,H-NTX,North Texas,TXG,33.17871132835417,-97.09220780430776
+18000217,3213,Denton Regional Radiation Oncology,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,3537 S I-35E,Suite 111,Denton,TX,76107,HCA,H-NTX,North Texas,TXG,33.1771183109983,-97.09110906197913
+18000783,34329,Medical City North Hills,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,4401 Booth Calloway Rd,North Richland Hills,TX,76180,HCA,H-NTX,North Texas,TXG,32.834152607200885,-97.21236963315816
+18000773,38333,Medical City McKinney,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,4500 Medical Center Dr,McKinney,TX,75069,HCA,H-NTX,North Texas,TXG,33.16049367851955,-96.6368989331442
+18000675,34372,Medical City Lewisville,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,500 W Main St,Lewisville,TX,75057,HCA,H-NTX,North Texas,TXG,33.045390480226146,-97.00468839082043
+18000629,6742,Medical City Las Colinas,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,6800 N McArthur Blvd,Irving,TX,75039,HCA,H-NTX,North Texas,TXG,32.902122737070556,-96.95736140431958
+18000459,7126,Medical City Green Oaks Hosp,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,7808 Clodus Fields Drive,Dallas,TX,75251,HCA,H-NTX,North Texas,TXG,32.912954962427385,-96.77141143315478
+18000680,25121,Medical City Alliance,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,3101 North Tarrant County Parkway,Fort Worth,TX,76177,HCA,H-NTX,North Texas,TXG,32.90006131431863,-97.31362158897716
+18000682,34309,Medical Center Arlington,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,3301 Matlock Rd,Arlington,TX,76015,HCA,H-NTX,North Texas,TXG,32.69265188656858,-97.11294604665721
+18000691,34310,Medical City Plano,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,3901 W 15th St,Plano,TX,75075,HCA,H-NTX,North Texas,TXG,33.021397897685794,-96.76612646198583
+18000694,34325,Medical City Dallas,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,7777 Forest Lane,Dallas,TX,75230,HCA,H-NTX,North Texas,TXG,32.90977816663066,-96.77192207548366
+18000695,26790,Medical City Frisco,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,5500 Frisco Square Blvd,Frisco,TX,75034,HCA,H-NTX,North Texas,TXG,33.150872564073545,-96.83871137547332
+18000937,31840,Rapides Regional Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,211 Fourth St,Alexandria,LA,71301,HCA,H-NTX,North Texas,LAA,31.315223767157118,-92.45007593322134
+18000898,34318,Medical City Forth Worth,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,900 Eighth Ave,Ft. Worth,TX,76104,HCA,H-NTX,North Texas,TXG,32.735953046457674,-97.34541490432669
+18001373,27505,North Texas Simulation Center,cst,-06:00,Central Time Zone,None,No EMR,1,3201 Dallas Pkwy,Suite 900,Frisco,TX,75034,HCA,H-NTX,North Texas,*None,33.10483570789039,-96.82399469081784
+18001319,26830,Medical City Heart & Spine,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,11990 N Central Expy,Dallas,TX,75243,HCA,H-NTX,North Texas,TXG,32.9129513692708,-96.76685114664782
+18001234,26935,Medical City Weatherford,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,713 East Anderson Street,Weatherford,TX,76086,HCA,H-NTX,North Texas,TXG,32.74827178562136,-97.78564970432613
+18001285,1079,IRL - East Florida,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,5361 NW 33rd Avenue,Ft. Lauderdale,FL,33309,HCA,PSG,Physician Services Group,IRL,26.192868521269673,-80.19321360457626
+18000007,27495,AirLife,mst,-07:00,Mountain Time Zone,MT56,Meditech 5.6,1,750 Potomac Street,Suite 201,Aurora,CO,80011,HCA,PSG,Physician Services Group,COA,39.72883133341203,-104.82753411934173
+18000264,38307,San Antonio Division Hub Sites,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,8109 Fredericksburg Rd,San Antonio,TX,78229,HCA,H-SAN,San Antonio,*None,29.513730544771423,-98.57241284863497
+18000726,54327,Methodist Ambulatory Surgery Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,9150 Huebner Rd,San Antonio,TX,78240,HCA,H-SAN,San Antonio,TXF,29.527154777094353,-98.5950259044562
+18000729,34335,Methodist Speciality and Transplant,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,8026 Floyd Curl Dr,San Antonio,TX,78229,HCA,H-SAN,San Antonio,TXF,29.513595978399472,-98.576761962128
+18000732,3132,Methodist Stone Oak Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1139 E. Sonterra Blvd,San Antonio,TX,78258,HCA,H-SAN,San Antonio,TXF,29.616297492462333,-98.47440786212408
+18000733,26109,Methodist Texsan Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,6700 IH 10 West,San Antonio,TX,78201,HCA,H-SAN,San Antonio,TXF,29.490729024073012,-98.54775750445759
+18000736,34392,Metropolitan Methodist Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1310 McCullough,San Antonio,TX,78212,HCA,H-SAN,San Antonio,TXF,29.44166679463067,-98.49120116213076
+18000794,34385,Northeast Methodist Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,12412 Judson Rd,Live Oak,TX,78233,HCA,H-SAN,San Antonio,TXF,29.552404972052987,-98.34829080445527
+18001250,19678,Cardiology Clinic of San Antonio,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,4411 Medical Drive,#300,San Antonio,TX,78229,HCA,H-SAN,San Antonio,*None,29.510739718221988,-98.57232654678555
+18001038,26890,Methodist Hospital South,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1905 Texas 91,Jourdanton,TX,78026,HCA,H-SAN,San Antonio,TXF,33.77646625278263,-96.5552539177749
+18001227,39385,Womens and Children's Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,7700 Floyd Curl Dr,San Antonio,TX,78229,HCA,H-SAN,San Antonio,TXF,29.50755809618024,-98.57240531795004
+18001163,34001,Trident Regional Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,9330 Medical Plaza Dr,Charleston,SC,39406,HCA,H-SAD,South Atlantic,SCA,32.9769081806997,-80.07341797548078
+18001063,36956,Specialty Hospital Jacksonville,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,4901 Richard St P.O. Box 10398,Jacksonville,FL,32207,HCA,H-SAD,South Atlantic,FLH,30.271738797475084,-81.61529809093425
+18001268,26960,Memorial University Medical Center,est,-05:00,Eastern Time Zone,EPIC,EPIC,1,4700 Waters Avenue,Savannah,GA,31404,HCA,H-SAD,South Atlantic,*None,32.02955922167106,-81.08997414668508
+18001431,27930,Memorial Health Meadows Hospital,est,-05:00,Eastern Time Zone,MT6x,Meditech 6.x/Expanse,1,One Meadows Parkway,Vidalia,GA,30474,HCA,H-SAD,South Atlantic,HCACRD,32.20882214065304,-82.37737551784197
+18001459,27995,Live Oak Mental Health and Wellness,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3445 Ingleside Blvd,Ladson,SC,29456,HCA,H-SAD,South Atlantic,SCA,32.969295102215895,-80.0873211331524
+18000843,30913,Orange Park Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2001 Kingsley Ave,Orange Park,FL,32073,HCA,H-SAD,South Atlantic,FLH,30.166270191804127,-81.73817060443146
+18000718,26870,Memorial of Satilla,est,-05:00,Eastern Time Zone,MT6x,Meditech 6.x/Expanse,1,1900 Tabeau Street,Waycross,GA,31501,HCA,H-SAD,South Atlantic,HCACRD,31.224978271497957,-82.34776429089631
+18000710,36957,Memorial Hospital of Jacksonville,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3625 University Blvd,Jacksonville,FL,32216,HCA,H-SAD,South Atlantic,FLH,30.28855599685951,-81.60132217559114
+18000274,26685,South Atlantic Division Hub Sites,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,115 Central Island St Suite 400,Charleston,SC,29492,HCA,H-SAD,South Atlantic,*None,32.8641000798121,-79.90772423500636
+18000411,31054,Fairview Park Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,200 Industrial Blvd,Dublin,GA,31021,HCA,H-SAD,South Atlantic,GAA,32.53220491824118,-82.95049520433531
+18000453,34003,Grand Strand Regional Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,809 82nd Pkwy,Myrtle Beach,SC,29572,HCA,H-SAD,South Atlantic,SCA,33.75870107226624,-78.8190846196251
+18000034,31003,Doctors Hospital of Augusta,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3651 Wheeler Rd,Augusta,GA,30909,HCA,H-SAD,South Atlantic,GAA,33.48573659495648,-82.09432703313011
+18000151,34011,Colleton Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,501 Robertson Blvd,Walterboro,SC,29488,HCA,H-SAD,South Atlantic,SCA,32.923410748591266,-80.66963591966126
+18000078,9799,Brooks Rehab Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,3599 University Blvd. South,Jacksonville,FL,32216,HCA,H-SAD,South Atlantic,FLH,30.290706751806635,-81.60080511976916
+18000396,8756,CSC - Atlanta Warehouse,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,1500 Southpoint Drive,Suite 100,Forest Park,GA,30297,HCA,CSC,Supply Chain,*None,33.63344123737855,-84.38328080428806
+18000397,26346,CSC - Denver Warehouse,mst,-07:00,Mountain Time Zone,Unknown,Need to Identify,1,4520 Florence Street,Denver,CO,80247,HCA,CSC,Supply Chain,*None,39.77977097850337,-104.87122956166776
+18000399,8751,CSC - Tampa Warehouse,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,10094 Premier Parkway,Miramar,FL,33025,HCA,CSC,Supply Chain,*None,25.972814320216635,-80.27806951992619
+18000400,8754,CSC - Salt Lake Warehouse,mst,-07:00,Mountain Time Zone,Unknown,Need to Identify,1,1120 W. Sportsplexn Drive,Kaysville,UT,84037,HCA,CSC,Supply Chain,*None,41.04293858480773,-111.96141247694472
+18000401,8750,CSC - Houston Warehouse,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,12610 W. Airport Blvd,Ste 180,Sugar Land,TX,77478,HCA,CSC,Supply Chain,*None,29.648336862352135,-95.60315734493082
+18000402,9752,CSC - Kansas City Warehouse,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,10405 W 79th Street,Shawnee,KS,66214,HCA,CSC,Supply Chain,*None,38.98725058365212,-94.70630661937926
+18000403,7847,CSC - Nashville Warehouse,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,245B Great Circle Road,Nashville,TN,37228,HCA,CSC,Supply Chain,*None,36.195862870928245,-86.79123600417218
+18000404,8753,CSC - New Orleans Warehouse,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,129 New Camellia Blvd,Covington,LA,70433,HCA,CSC,Supply Chain,*None,30.45523446299075,-90.17316791791328
+18000405,8749,CSC - Jacksonville Warehouse,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,85011 Westside Industrial Drive,Jacksonville,FL,32219,HCA,CSC,Supply Chain,*None,30.37481625554276,-81.7942360909302
+18000406,7846,CSC - Dallas Warehouse,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,1151 Enterprise Drive,Coppell,TX,75019,HCA,CSC,Supply Chain,*None,32.941123752958944,-97.0040166908249
+18000407,7848,CSC - Richmond Warehouse,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,200 Wadsworth Drive,Richmond,VA,23236,HCA,CSC,Supply Chain,*None,37.49326864784968,-77.55923193294602
+18000408,25748,CSC - San Antonio Warehouse,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,5919 W Campus Drive,Suite 120,San Antonio,TX,78247,HCA,CSC,Supply Chain,*None,29.600783675861848,-98.36824683328904
+18000409,8752,CSC - Miami Warehouse,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,12901 Starkey Road,Suite 1000,Largo,FL,33773,HCA,CSC,Supply Chain,*None,27.890044459891076,-82.75944858917447
+18000428,31768,Frankfort Regional Medical Center,est,-05:00,Eastern Time Zone,MT6x,Meditech 6.x/Expanse,1,299 Kings Daughters Dr,Frankfort,KY,40601,HCA,H-TRI,Tristar,HCACRD,38.16024481881677,-84.90645270407781
+18000275,31030,Tristar Division Hub Sites,cst,-06:00,Central Time Zone,Unknown,Need to Identify,1,110 Winners Circle,First Floor,Nashville,TN,37203,HCA,H-TRI,Tristar,*None,36.03691901487487,-86.80755877719346
+18000117,36244,TriStar Ashland City Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,313 N Main St,Ashland City,TN,37015,HCA,H-TRI,Tristar,TNA,36.27727105800488,-87.06566921951094
+18000109,34222,Centennial Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,2300 Patterson St,Nashville,TN,37203,HCA,H-TRI,Tristar,TNA,36.15366273828228,-86.80690883300979
+18000462,31767,Greenview Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1801 Ashley Cir,Bowling Green,KY,42104,HCA,H-TRI,Tristar,TNA,36.96497105794342,-86.43683091947835
+18000498,34296,Hendersonville Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,355 New Shackle Island Rd,Hendersonville,TN,37075,HCA,H-TRI,Tristar,TNA,36.32546916706372,-86.62241910416608
+18000512,36243,Horizon Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,111 Hwy 70 East,Dickson,TN,37055,HCA,H-TRI,Tristar,TNA,36.08300253256114,-87.33742257719129
+18001342,26990,Pinewood Springs,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1001 North James Campbell Boulevard,Columbia,TN,38401,HCA,H-TRI,Tristar,TNA,35.62184940396762,-87.06681267721271
+18001108,9391,Stonecrest Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,200 Stonecrest Blvd.,Smyrna,TN,37167,HCA,H-TRI,Tristar,TNA,35.97544050548157,-86.56482477534688
+18001115,34223,Summit Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,5655 Frist Blvd,Hermitage,TN,37076,HCA,H-TRI,Tristar,TNA,36.17619061405329,-86.60814888937965
+18001139,25070,Skyline Medical Center Madison Campus,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,500 Hospital Drive,Madison,TN,37116,HCA,H-TRI,Tristar,TNA,36.25479169265784,-86.68238659067634
+18001044,34242,Southern Hills Medical Center,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,391 Wallace Rd,Nashville,TN,37211,HCA,H-TRI,Tristar,TNA,36.076531072148484,-86.72156171952032
+18001028,34293,Skyline Medical Center (Nashville Memorial),cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,3441 Dickerson Pike,Nashville,TN,37027,HCA,H-TRI,Tristar,TNA,36.24577427350347,-86.7497087464986
+18000950,18930,Redmond Regional Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,501 Redmond Rd,Rome,GA,30165,HCA,H-TRI,Tristar,GAA,34.259735319666255,-85.17754364843869
+18000880,34206,Parkridge East Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,941 Spring Creek Rd,Chattanooga,TN,37412,HCA,H-TRI,Tristar,TNB,34.99888638030489,-85.21894454655607
+18000881,34224,Parkridge Medical Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2333 McCallie Avenue,Chattanooga,TN,37404,HCA,H-TRI,Tristar,TNB,35.034167121622986,-85.2671107042258
+18000884,26620,Parkridge West Hospital,cst,-06:00,Central Time Zone,MT56,Meditech 5.6,1,1000 Highway 28,Jasper,TN,37347,HCA,H-TRI,Tristar,TNB,35.04608375962571,-85.62964210422523
+18000860,26536,HCA Florida Pasadena Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,1501 Pasadena Ave,Petersburg,FL,33707,HCA,H-WFL,West Florida,FLQ,27.752716417367456,-82.73971939102888
+18000953,30951,HCA Florida Bayonet Point Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,14000 Fivay Rd,Hudson,FL,34667,HCA,H-WFL,West Florida,FLG,28.361398127323532,-82.68764156217118
+18001033,37941,HCA Florida South Shore Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,4016 State Rd 674,Sun City Center,FL,33573,HCA,H-WFL,West Florida,FLG,27.712698742793066,-82.33510066219475
+18001157,27500,HCA Florida West Tampa Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,6001 Webb Road,Tampa,FL,33615,HCA,H-WFL,West Florida,FLQ,28.002137049825922,-82.57408533334868
+18001120,25558,HCA Florida Largo West Hospital,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,2025 Indian Rocks Road,Largo,FL,33774,HCA,H-WFL,West Florida,FLG,27.89835909532483,-82.82438923335236
+18001104,30901,HCA Florida St. Petersburg Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,6500 38th Ave North,St. Petersburg,FL,33710,HCA,H-WFL,West Florida,FLG,27.805572317387067,-82.72610589102699
+18001371,27511,West Florida Simulation Center,est,-05:00,Eastern Time Zone,None,No EMR,1,560 South Lakewood Dr,Suite 210,Brandon,FL,33511,HCA,H-WFL,West Florida,*None,27.928871723356153,-82.31345707752949
+18000715,26537,HCA Florida South Tampa Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2901 Swann Ave,Tampa,FL,33609,HCA,H-WFL,West Florida,FLQ,27.938473060132416,-82.4887424486935
+18000626,30936,HCA Florida Largo Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,201 14th St SW,Largo,FL,33770,HCA,H-WFL,West Florida,FLG,27.91451345911378,-82.80380590451618
+18000763,30941,HCA Florida Trinity Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,5637 Marine Parkway,New Port Richey,FL,34656,HCA,H-WFL,West Florida,FLG,28.23530391174895,-82.7202566045045
+18000815,30997,HCA Florida Oak Hill Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,11375 Cortez Blvd,Brooksville,FL,34613,HCA,H-WFL,West Florida,FLG,28.53710645632671,-82.53415854682214
+18000801,30950,HCA Florida Northside Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,6000 49th Street,North,St. Petersburg,FL,33709,HCA,H-WFL,West Florida,FLG,27.82600661786507,-82.70239984869757
+18000073,30917,HCA Florida Brandon Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,119 Oakfield Dr,Brandon,FL,33511,HCA,H-WFL,West Florida,FLG,27.932753886239922,-82.28748497567987
+18000001,3206,Access Summit Imaging Center,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,12037 Cortez Blvd,Brooksville,FL,34613,HCA,H-WFL,West Florida,FLG,28.534452139230794,-82.52829877565789
+18000062,30949,HCA Florida Blake Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,2020 59th St West,Bradenton,FL,34209,HCA,H-WFL,West Florida,FLG,27.48297149316611,-82.6238760333673
+18000127,26670,HCA Florida Citrus Hospital,est,-05:00,Eastern Time Zone,Cerner,Cerner,1,502 W Highland Blvd,Inverness,FL,33763,HCA,H-WFL,West Florida,*None,28.833993362429094,-82.3358957909893
+18000276,36958,West Florida Division Hub Sites,est,-05:00,Eastern Time Zone,Unknown,Need to Identify,1,3031 N. Rocky Point Drive West,Tampa,FL,33607,HCA,H-WFL,West Florida,*None,27.969597081437414,-82.56822843334984
+18000387,35952,HCA Florida Englewood Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,700 Medical Blvd,Englewood,FL,34223,HCA,H-WFL,West Florida,FLC,26.95038896818574,-82.32672796222167
+18000343,36930,HCA Florida Sarasota Doctors Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,5731 Bee Ridge Rd,Sarasota,FL,34233,HCA,H-WFL,West Florida,FLC,27.302144615813663,-82.45354404871625
+18000415,35953,HCA Florida Fawcett Hospital,est,-05:00,Eastern Time Zone,MT56,Meditech 5.6,1,21298 Olean Blvd NW,Port Charlotte,FL,33949,HCA,H-WFL,West Florida,FLC,26.98891170153102,-82.09804021804207

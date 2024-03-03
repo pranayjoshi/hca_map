@@ -1,137 +1,156 @@
 import React, { useEffect, useRef } from 'react';
-import * as d3 from 'd3';
-import * as topojson from 'topojson-client';
-import us from './states-albers-10m.json'; // adjust the path to your json file
+import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
+import statesData from './us-states.js'; // Assuming us-states.js exports the GeoJSON data
+import { useSelector, useDispatch } from 'react-redux';
 
-function MapFunc() {
-  const ref = useRef();
-
+function MapComponent() {
+  const mapRef = useRef(null);
+  const dispatch = useDispatch();
+  const count = useSelector((state) => state.displayIds["display_ids"]);
+  console.log(count);
   useEffect(() => {
-    console.log("wdawda")
-    const svg = d3.select(ref.current);
-    const width = 978;
-    const height = 610;
+    if (!mapRef.current) return;
 
+    var map = L.map(mapRef.current).setView([37.8, -96], 4);
 
-    svg.attr("viewBox", [0, 0, width, height])
-      .attr("width", width)
-      .attr("height", height)
-      .attr("style", "max-width: 100%; height: auto;")
-      .on("click", reset);
-
-    const path = d3.geoPath();
-
-    const g = svg.append("g");
-
-    const states = g.append("g")
-      .attr("fill", "#444")
-      .attr("cursor", "pointer")
-      .selectAll("path")
-      .data(topojson.feature(us, us.objects.states).features)
-      .join("path")
-      .on("click", clicked)
-      .attr("d", path);
-
-    states.append("title")
-      .text(d => d.properties.name);
-
-    g.append("path")
-      .attr("fill", "none")
-      .attr("stroke", "white")
-      .attr("stroke-linejoin", "round")
-      .attr("d", path(topojson.mesh(us, us.objects.states, (a, b) => a !== b)));
-
-    
-
-    const projection = d3.geoAlbersUsa()
-      .translate([width / 2, height / 2])
-      .scale(1000);
-
-    // Define pointer coordinates
-    const pointers = [
-        [-75.1652, 39.9526], // Philadelphia, PA
-        [-118.2437, 34.0522], // Los Angeles, CA
-        [-95.3698, 29.7604] // Houston, TX
-        // Add more coordinates as needed
-      ];
+    L.tileLayer(
+      "https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw",
+      {
+        maxZoom: 18,
+        id: "mapbox.light"
+      }
+    ).addTo(map);
   
-      // Function to add pointers
-      const addPointers = () => {
-        svg.selectAll("circle")
-          .data(pointers)
-          .join("circle")
-          .attr("cx", d => projection(d)[0])
-          .attr("cy", d => projection(d)[1])
-          .attr("r", 5)
-          .style("fill", "blue");
+      // control that shows state info on hover
+      var info = L.control();
+  
+      info.onAdd = function(map) {
+        this._div = L.DomUtil.create("div", "info");
+        this.update();
+        return this._div;
       };
   
-      // Add pointers initially
-      addPointers();
+      info.update = function(props) {
+        this._div.innerHTML =
+          "<h4>US Population Density</h4>" +
+          (props
+            ? "<b>" +
+              props.name +
+              "</b><br />" +
+              props.density +
+              " people / mi<sup>2</sup>"
+            : "Hover over a state");
+      };
   
-      // Define zoom behavior
-      const zoom = d3.zoom()
-        .scaleExtent([1, 8])
-        .on("zoom", zoomed);
+      info.addTo(map);
   
-      // Apply zoom behavior to SVG
-      svg.call(zoom);
-
-    function reset() {
-      states.transition().style("fill", null);
-      svg.transition().duration(750).call(
-        zoom.transform,
-        d3.zoomIdentity,
-        d3.zoomTransform(svg.node()).invert([width / 2, height / 2])
+      // get color depending on population density value
+      function getColor(d) {
+        return d > 1000
+          ? "#800026"
+          : d > 500
+            ? "#BD0026"
+            : d > 200
+              ? "#E31A1C"
+              : d > 100
+                ? "#FC4E2A"
+                : d > 50
+                  ? "#FD8D3C"
+                  : d > 20 ? "#FEB24C" : d > 10 ? "#FED976" : "#FFEDA0";
+      }
+      L.marker([37.8, -96]).addTo(map);
+  
+      function style(feature) {
+        return {
+          weight: 2,
+          opacity: 1,
+          color: "white",
+          dashArray: "3",
+          fillOpacity: 0.7,
+          fillColor: getColor(feature.properties.density)
+        };
+      }
+  
+      function highlightFeature(e) {
+        var layer = e.target;
+  
+        layer.setStyle({
+          weight: 5,
+          color: "#666",
+          dashArray: "",
+          fillOpacity: 0.7
+        });
+  
+        if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+          layer.bringToFront();
+        }
+  
+        info.update(layer.feature.properties);
+      }
+  
+      var geojson;
+  
+      function resetHighlight(e) {
+        geojson.resetStyle(e.target);
+        info.update();
+      }
+  
+      function zoomToFeature(e) {
+        map.fitBounds(e.target.getBounds());
+      }
+  
+      function onEachFeature(feature, layer) {
+        layer.on({
+          mouseover: highlightFeature,
+          mouseout: resetHighlight,
+          click: zoomToFeature
+        });
+      }
+  
+      geojson = L.geoJson(statesData, {
+        style: style,
+        onEachFeature: onEachFeature
+      }).addTo(map);
+  
+      map.attributionControl.addAttribution(
+        'Population data &copy; <a href="http://census.gov/">US Census Bureau</a>'
       );
-    }
   
-      // Zoom function
-      function zoomed(event) {
-        const {transform} = event;
-        svg.selectAll("path").attr("transform", transform);
-        svg.selectAll("circle").attr("transform", transform);
-      }
-      function clicked(event, d) {
-        const [[x0, y0], [x1, y1]] = path.bounds(d);
-      
-        // Get the pointers within the clicked state
-        const pointersInState = pointers.filter(p => d3.geoContains(d, projection.invert(p)));
-      
-        // Get the bounds of the pointers
-        const pointerBounds = pointersInState.reduce((bounds, p) => {
-          return [
-            [Math.min(bounds[0][0], p[0]), Math.min(bounds[0][1], p[1])],
-            [Math.max(bounds[1][0], p[0]), Math.max(bounds[1][1], p[1])]
-          ];
-        }, [[x0, y0], [x1, y1]]);
-      
-        event.stopPropagation();
-        states.transition().style("fill", null);
-        d3.select(this).transition().style("fill", "red");
-        svg.transition().duration(750).call(
-          zoom.transform,
-          d3.zoomIdentity
-            .translate(width / 2, height / 2)
-            .scale(Math.min(8, 0.9 / Math.max((pointerBounds[1][0] - pointerBounds[0][0]) / width, (pointerBounds[1][1] - pointerBounds[0][1]) / height)))
-            .translate(-(pointerBounds[0][0] + pointerBounds[1][0]) / 2, -(pointerBounds[0][1] + pointerBounds[1][1]) / 2),
-          d3.pointer(event, svg.node())
-        );
-      }
-
-    function zoomed(event) {
-      const {transform} = event;
-      g.attr("transform", transform);
-      g.attr("stroke-width", 1 / transform.k);
-    }
-  }, []);
-
-  return (
-    <div className='border border-gray-500 rounded-lg'>
-    <svg ref={ref}></svg>
-    </div>
-  )
-   
+      var legend = L.control({ position: "bottomright" });
+  
+      legend.onAdd = function(map) {
+        var div = L.DomUtil.create("div", "info legend"),
+          grades = [0, 10, 20, 50, 100, 200, 500, 1000],
+          labels = [],
+          from,
+          to;
+  
+        for (var i = 0; i < grades.length; i++) {
+          from = grades[i];
+          to = grades[i + 1];
+  
+          labels.push(
+            '<i style="background:' +
+              getColor(from + 1) +
+              '"></i> ' +
+              from +
+              (to ? "&ndash;" + to : "+")
+          );
+        }
+  
+        div.innerHTML = labels.join("<br>");
+        return div;
+      };
+  
+      legend.addTo(map);
+      return () => {
+        map.remove();
+      };
+    }, []);
+    return (
+        <div ref={mapRef} style={{ height: "900px", width: "1300px", backgroundColor: "white" }} />
+      );
 }
 
-export default MapFunc;
+export default MapComponent;

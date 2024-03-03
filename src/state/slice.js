@@ -15,7 +15,7 @@ export const authSlice = createSlice({
       state.name = action.payload.name;
     },
     setDisplayIds: (state, action) => {
-      console.log(action.payload)
+      // console.log(action.payload)
       state.display_ids = action.payload;
     }
     // setLogin: (state, action) => {

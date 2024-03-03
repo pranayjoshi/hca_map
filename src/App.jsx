@@ -4,20 +4,39 @@ import Filter from "./widgets/filter/filter";
 import Details from "./widgets/details/details";
 // import ChoroplethMap from "./widgets/details/details2";
 import 'leaflet/dist/leaflet.css';
-import MapComponent from "./widgets/map/map2";
+import MapComponent from "./widgets/map/map";
 import { useSelector, useDispatch } from 'react-redux';
 import { setToken, setDisplayIds } from './state/slice';
+import setInitialData from "./utils/set_initial_data";
+import { data } from "autoprefixer";
 // import './App.css'
+async function fetchData() {
+  try {
+    const data = await setInitialData();
+    // console.log(data); // This should now be an array
+    return data
+  } catch (err) {
+    console.error(err);
+  }
+  
+}
+
+fetchData();
 
 function App() {
   var count = useSelector((state) => state.displayIds["display_ids"]);
   const dispatch = useDispatch();
   
   useEffect(() => {
-    dispatch(setDisplayIds(["wadad","wadadd"]))
-    console.log(count)
+    const fetchDataAndDispatch = async () => {
+      const data = await fetchData();
+      // console.log(data)
+      dispatch(setDisplayIds(data));
+      // console.log(count)
+    };
     
-  }, [])
+    fetchDataAndDispatch();
+  }, []);
 
   return (
     <>
@@ -27,7 +46,6 @@ function App() {
         </div>
         <div className="flex w-full gap-4">
           <Filter />
-          <span>{count}</span>
           <MapComponent/>
           <Details />
         </div>
