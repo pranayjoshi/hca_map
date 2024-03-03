@@ -3,11 +3,11 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import statesData from "./us-states.js"; // Assuming us-states.js exports the GeoJSON data
 import { useSelector, useDispatch } from "react-redux";
-import 'leaflet.markercluster/dist/MarkerCluster.css';
-import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
+import "leaflet.markercluster/dist/MarkerCluster.css";
+import "leaflet.markercluster/dist/MarkerCluster.Default.css";
+import Details from "../details/details.jsx";
+import { setTempData } from "../../state/slice";
 // import { MarkerClusterGroup } from 'leaflet.markercluster';
-
-
 
 function MapComponent() {
   const mapRef = useRef(null);
@@ -28,7 +28,6 @@ function MapComponent() {
       }
     ).addTo(map);
 
-
     // control that shows state info on hover
     var info = L.control();
 
@@ -39,80 +38,130 @@ function MapComponent() {
     };
 
     info.update = function (props) {
-      this._div.innerHTML =
-        (props
-          ? "<b>" +
-            props.name +
-            "</b><br />"
-          : "Hover over a state");
+      this._div.innerHTML = props
+        ? "<b>" + props.name + "</b><br />"
+        : "Hover over a state";
     };
 
     info.addTo(map);
 
     // get color depending on population density value
     function getColor(d) {
-      return  "gray"
+      return "gray";
     }
-  //   function displaceMarkers(facilities) {
-  //     const displacementDistance = 0.1; // Adjust based on zoom level or other criteria
-  //     console.log(facilities);
-  //     let updatedFacilities = [];
-  //     let newLat, newLng;
-      
-  //     facilities.forEach((facility, index) => {
-  //       // console.log(facility);
-  //         newLat = facility.Latitude;
-  //         newLng = facility.Longitude;
-  //         try {
-  //         facilities.forEach((otherFacility, otherIndex) => {
-  //           // console.log(otherFacility)
-  //             if (index !== otherIndex) {
-  //               // console.log(otherFacility)
-  //                 const distance = map.distance([facility.Latitude, facility.Longitude], [otherFacility.Latitude, otherFacility.Longitude]);
-  //                 console.log(distance)
-  //                 if (distance < 100000) { // 5 km threshold, adjust as needed
-  //                     // Example displacement logic - adjust as necessary for your use case
-  //                     console.log("displacement")
-  //                     // newLat += (Math.random() -0.5) * displacementDistance;
-  //                     // newLng += (Math.random() -0.5) * displacementDistance;
-  //                 }
-  //             }
-  //         });
-  //       } catch (err) {
-  //       }
-  //         updatedFacilities.push({id: facility.id, Latitude: newLat, Longitude: newLng});
-  //     });
-    
-  //     console.log(updatedFacilities)
-  
-  //     return updatedFacilities;
-  // }
-  // var displacedFacilities = displaceMarkers(count);
+    //   function displaceMarkers(facilities) {
+    //     const displacementDistance = 0.1; // Adjust based on zoom level or other criteria
+    //     console.log(facilities);
+    //     let updatedFacilities = [];
+    //     let newLat, newLng;
 
-  var hubSitesIcon = L.icon({
-    iconUrl: 'https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/64/external-legal-business-and-finance-icongeek26-linear-colour-icongeek26.png',
-    iconSize: [38, 95], // size of the icon
-    // specify the anchor where the icon's "tip" should be
-    iconAnchor: [22, 94],
-    // and the anchor of the popup
-    popupAnchor: [-3, -76]
-  });
-// Add displaced markers to the map
-count.forEach(facility => {
-  // console.log(facility)
-  
-  try {
-    if (facility["facility_name"].includes("Hub Sites")) L.marker([facility.Latitude, facility.Longitude], {icon: hubSitesIcon}).addTo(map);
-    else if (facility["division_name"].includes("Supply Chain")) console.log("Awdwadwad2");
-    else if (facility["division_name"].includes("HSC")) console.log("Awdwadwad22");
-    // console.log(item);
-    else L.marker([facility.Latitude, facility.Longitude]).addTo(map);
+    //     facilities.forEach((facility, index) => {
+    //       // console.log(facility);
+    //         newLat = facility.Latitude;
+    //         newLng = facility.Longitude;
+    //         try {
+    //         facilities.forEach((otherFacility, otherIndex) => {
+    //           // console.log(otherFacility)
+    //             if (index !== otherIndex) {
+    //               // console.log(otherFacility)
+    //                 const distance = map.distance([facility.Latitude, facility.Longitude], [otherFacility.Latitude, otherFacility.Longitude]);
+    //                 console.log(distance)
+    //                 if (distance < 100000) { // 5 km threshold, adjust as needed
+    //                     // Example displacement logic - adjust as necessary for your use case
+    //                     console.log("displacement")
+    //                     // newLat += (Math.random() -0.5) * displacementDistance;
+    //                     // newLng += (Math.random() -0.5) * displacementDistance;
+    //                 }
+    //             }
+    //         });
+    //       } catch (err) {
+    //       }
+    //         updatedFacilities.push({id: facility.id, Latitude: newLat, Longitude: newLng});
+    //     });
 
-  } catch (err) {
-    // console.error(err);
-  }
-    
-});
+    //     console.log(updatedFacilities)
+
+    //     return updatedFacilities;
+    // }
+    // var displacedFacilities = displaceMarkers(count);
+
+    var ic1 = L.icon({
+      iconUrl:
+        "https://github.com/pranayjoshi/hca_map/blob/master/src/assets/1.png?raw=true",
+      iconSize: [38, 40], // size of the icon
+      // specify the anchor where the icon's "tip" should be
+      iconAnchor: [22, 94],
+      // and the anchor of the popup
+      popupAnchor: [-3, -76],
+    });
+    var ic2 = L.icon({
+      iconUrl:
+        "https://github.com/pranayjoshi/hca_map/blob/master/src/assets/2.png?raw=true",
+      iconSize: [38, 40], // size of the icon
+      // specify the anchor where the icon's "tip" should be
+      iconAnchor: [22, 94],
+      // and the anchor of the popup
+      popupAnchor: [-3, -76],
+    });
+    var ic3 = L.icon({
+      iconUrl:
+        "https://github.com/pranayjoshi/hca_map/blob/master/src/assets/3.png?raw=true",
+      iconSize: [38, 40], // size of the icon
+      // specify the anchor where the icon's "tip" should be
+      iconAnchor: [22, 94],
+      // and the anchor of the popup
+      popupAnchor: [-3, -76],
+    });
+    var ic4 = L.icon({
+      iconUrl:
+        "https://github.com/pranayjoshi/hca_map/blob/master/src/assets/4.png?raw=true",
+      iconSize: [38, 40], // size of the icon
+      // specify the anchor where the icon's "tip" should be
+      iconAnchor: [22, 94],
+      // and the anchor of the popup
+      popupAnchor: [-3, -76],
+    });
+    // Add displaced markers to the map
+    count.forEach((facility) => {
+      // console.log(facility)
+
+      try {
+        if (facility["facility_name"].includes("Hub Sites"))
+          L.marker([facility.Latitude, facility.Longitude], { icon: ic3 })
+            .addTo(map)
+            .bindTooltip(
+              `<b>${facility.facility_name}</b><br />${facility.division_name} (${facility.facility_state})`
+            );
+        else if (facility["division_name"].includes("Supply Chain"))
+          L.marker([facility.Latitude, facility.Longitude], { icon: ic2 })
+            .addTo(map)
+            .bindTooltip(
+              `<b>${facility.facility_name}</b><br />${facility.division_name} (${facility.facility_state})`
+            );
+        else if (facility["division_name"].includes("HSC"))
+          L.marker([facility.Latitude, facility.Longitude], { icon: ic1 })
+            .addTo(map)
+            .bindTooltip(
+              `<b>${facility.facility_name}</b><br />${facility.division_name} (${facility.facility_state})`
+            );
+        // console.log(item);
+        else
+          L.marker([facility.Latitude, facility.Longitude])
+            .addTo(map)
+            .bindTooltip(
+              `<b>${facility.facility_name}</b><br />${facility.division_name} (${facility.facility_state})`
+            )
+            .on("click", function (e) {
+              // console.log(`Marker clicked: ${facility.id}`);
+              dispatch(setTempData(facility));
+            })
+            .on("click", function (e) {
+              map.flyTo(e.latlng, 7);
+            });
+      } catch (err) {
+        // console.error(err);
+      }
+    });
     // count.forEach((item) => {
     //   try {
     //     // console.log(item);
@@ -121,7 +170,6 @@ count.forEach(facility => {
     //     // console.error(err);
     //   }
     // });
-    
 
     function style(feature) {
       return {

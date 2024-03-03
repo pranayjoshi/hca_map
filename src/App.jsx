@@ -33,7 +33,7 @@ function App() {
       const data = await fetchData();
       // console.log(data)
       dispatch(setDisplayIds(data));
-      copyOrigData();
+      dispatch(copyOrigData(data));
 
       setIsLoading(false);
       // console.log(count)

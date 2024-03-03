@@ -5,6 +5,7 @@ const initialState = {
   name: null,
   display_ids: [],
   original_data:[],
+  temp_data: []
 };
 
 export const authSlice = createSlice({
@@ -22,8 +23,17 @@ export const authSlice = createSlice({
 
     copyOrigData: (state, action) => {
       // console.log(action.payload)
-      state.original_data = action.state.display_ids;
-    }
+      state.original_data = action.payload;
+      console.log(state.original_data)
+    },
+    setDispl: (state) => {
+      // console.log(action.payload)
+      state.display_ids = state.original_data;
+      console.log(state.display_ids)
+    },
+    setTempData: (state, action) => {
+      state.temp_data = action.payload;
+    },
     // setLogin: (state, action) => {
       
     //   state.user = action.payload.user;
@@ -40,6 +50,6 @@ export const authSlice = createSlice({
   },
 });
 
-export const { setToken, setDisplayIds, copyOrigData} =
+export const { setToken, setDisplayIds, copyOrigData, setTempData, setDispl} =
   authSlice.actions;
 export default authSlice.reducer;

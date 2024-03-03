@@ -26,8 +26,8 @@ export function Combobox({fm, selectedState}) {
   const [value, setValue] = React.useState("");
 
   const updateVal = async (val) => {
-    // console.log(selectedState);
-    const data = await setDataAcCategory(selectedState, val.toUpperCase());
+    console.log(selectedState);
+    const data = await setDataAcCategory(selectedState, val);
     // console.log(data);
     dis(setDisplayIds(data));
   };

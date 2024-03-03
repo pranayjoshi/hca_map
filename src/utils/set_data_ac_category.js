@@ -7,8 +7,9 @@ export default async function setDataAcCategory(column_name, value) {
       download: true,
       header: true,
       complete: function(results) {
-        const filteredData = results.data.filter(row => row[column_name] == value.toUpperCase());
-        // console.log(filteredData);
+        console.log(results.data.column_name, value);
+        const filteredData = results.data.filter(row => row[column_name]?.toLowerCase() == value);
+        
         resolve(filteredData);
       },
       error: function(err) {
