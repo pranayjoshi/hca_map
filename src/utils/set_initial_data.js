@@ -2,7 +2,7 @@ import Papa from 'papaparse';
 
 export default function setInitialData() {
   return new Promise((resolve, reject) => {
-    Papa.parse('src/assets/HCA_Data.csv', { // Assuming 'assets' is a public directory
+    Papa.parse('../public/HCA_Data.csv', { // Assuming 'assets' is a public directory
       download: true,
       header: true,
       complete: function(results) {
