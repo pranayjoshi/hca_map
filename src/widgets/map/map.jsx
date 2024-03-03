@@ -69,7 +69,7 @@ function MapComponent() {
         // console.log(item);
         L.marker([item.Latitude, item.Longitude]).addTo(map);
       } catch (err) {
-        console.error(err);
+        // console.error(err);
       }
     });
 
@@ -163,7 +163,7 @@ function MapComponent() {
   return (
     <div
       ref={mapRef}
-      style={{ height: "900px", width: "1300px", backgroundColor: "white" }}
+      style={{ height: "900px", width: "1300px", backgroundColor: "#F9FAFB" }}
     />
   );
 }

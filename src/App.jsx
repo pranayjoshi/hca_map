@@ -25,6 +25,7 @@ fetchData();
 
 function App() {
   var count = useSelector((state) => state.displayIds["display_ids"]);
+  const [isLoading, setIsLoading] = useState(true);
   const dispatch = useDispatch();
   
   useEffect(() => {
@@ -32,15 +33,19 @@ function App() {
       const data = await fetchData();
       // console.log(data)
       dispatch(setDisplayIds(data));
+      setIsLoading(false);
       // console.log(count)
     };
     
     fetchDataAndDispatch();
   }, []);
+  if (isLoading) {
+    return <div>Loading...</div>; // Or some loading spinner
+  }
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center min-h-screen p-2 pl-4">
+      <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-2 pl-4">
         <div className="flex flex-col items-center justify-center w-5/6">
           <h1 className="text-6xl text-gray-900 pb-2">HCA Mapper</h1>
         </div>

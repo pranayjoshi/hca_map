@@ -2,7 +2,8 @@
 
 import * as React from "react"
 import { CaretSortIcon, CheckIcon } from "@radix-ui/react-icons"
-
+import { useSelector, useDispatch } from 'react-redux';
+import { setToken, setDisplayIds } from '@/state/slice'
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import {
@@ -17,35 +18,18 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover"
-
-const frameworks = [
-  {
-    value: "next.js",
-    label: "Next.js",
-  },
-  {
-    value: "sveltekit",
-    label: "SvelteKit",
-  },
-  {
-    value: "nuxt.js",
-    label: "Nuxt.js",
-  },
-  {
-    value: "remix",
-    label: "Remix",
-  },
-  {
-    value: "astro",
-    label: "Astro",
-  },
-]
-
+import setDataAcCategory from "@/utils/set_data_ac_category"
 export function Combobox(fm) {
-    var memo = React.useMemo(() => { return fm["fm"] }, [fm])
-    console.log(memo)
+    var memo = fm['fm']
+    console.log(memo);
+    const dis = useDispatch();
   const [open, setOpen] = React.useState(false)
   const [value, setValue] = React.useState("")
+  const updateVal = async (val) => {
+    const data = await setDataAcCategory("facility_state", val.toUpperCase());
+    console.log(data);
+    dis(setDisplayIds(data));
+}
 
   return (
     <Popover open={open} onOpenChange={setOpen}>
@@ -54,33 +38,35 @@ export function Combobox(fm) {
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className="w-[280px] justify-between"
+          className="w-[240px] justify-between"
         >
           {value
-            ? memo.find((framework) => framework.value === value)?.label
+            ? memo.find((framework) => framework.value === value.toUpperCase())?.label
             : "Select state..."}
           <CaretSortIcon className="ml-2 h-4 w-4 shrink-0 opacity-50" />
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="w-[200px] p-0">
+      <PopoverContent className="w-[240px] p-0">
         <Command>
           <CommandInput placeholder="Search state..." className="h-9" />
           <CommandEmpty>No framework found.</CommandEmpty>
           <CommandGroup>
-            {memo.map((framework) => (
+            {memo.map((fmt) => (
+                
               <CommandItem
-                key={framework.value}
-                value={framework.value}
-                onSelect={(currentValue) => {
+                key={fmt.value}
+                value={fmt.value}
+                onSelect={(currentValue) =>  {
                   setValue(currentValue === value ? "" : currentValue)
+                  updateVal(currentValue)
                   setOpen(false)
                 }}
               >
-                {framework.label}
+                {fmt.label}
                 <CheckIcon
                   className={cn(
                     "ml-auto h-4 w-4",
-                    value === framework.value ? "opacity-100" : "opacity-0"
+                    value.toUpperCase() === fmt.value ? "opacity-100" : "opacity-0"
                   )}
                 />
               </CommandItem>
