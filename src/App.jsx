@@ -1,14 +1,23 @@
-import { useState } from "react";
-import MapFunc from "./widgets/map/map";
+import { useEffect, useState } from "react";
+// import MapFunc from "./widgets/map/map";
 import Filter from "./widgets/filter/filter";
 import Details from "./widgets/details/details";
-import ChoroplethMap from "./widgets/details/details2";
+// import ChoroplethMap from "./widgets/details/details2";
 import 'leaflet/dist/leaflet.css';
 import MapComponent from "./widgets/map/map2";
+import { useSelector, useDispatch } from 'react-redux';
+import { setToken, setDisplayIds } from './state/slice';
 // import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0);
+  var count = useSelector((state) => state.displayIds["display_ids"]);
+  const dispatch = useDispatch();
+  
+  useEffect(() => {
+    dispatch(setDisplayIds(["wadad","wadadd"]))
+    console.log(count)
+    
+  }, [])
 
   return (
     <>
@@ -18,6 +27,7 @@ function App() {
         </div>
         <div className="flex w-full gap-4">
           <Filter />
+          <span>{count}</span>
           <MapComponent/>
           <Details />
         </div>
