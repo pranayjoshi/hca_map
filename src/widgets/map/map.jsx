@@ -8,7 +8,7 @@ function MapComponent() {
   const mapRef = useRef(null);
   const dispatch = useDispatch();
   const count = useSelector((state) => state.displayIds["display_ids"]);
-  console.log(count);
+  // console.log(count);
   useEffect(() => {
     if (!count) return;
     if (!mapRef.current) return;
@@ -66,7 +66,7 @@ function MapComponent() {
     }
     count.forEach((item) => {
       try {
-        console.log(item);
+        // console.log(item);
         L.marker([item.Latitude, item.Longitude]).addTo(map);
       } catch (err) {
         console.error(err);

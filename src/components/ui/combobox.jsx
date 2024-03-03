@@ -42,6 +42,8 @@ const frameworks = [
 ]
 
 export function Combobox(fm) {
+    var memo = React.useMemo(() => { return fm["fm"] }, [fm])
+    console.log(memo)
   const [open, setOpen] = React.useState(false)
   const [value, setValue] = React.useState("")
 
@@ -55,17 +57,17 @@ export function Combobox(fm) {
           className="w-[280px] justify-between"
         >
           {value
-            ? frameworks.find((framework) => framework.value === value)?.label
-            : "Select framework..."}
+            ? memo.find((framework) => framework.value === value)?.label
+            : "Select state..."}
           <CaretSortIcon className="ml-2 h-4 w-4 shrink-0 opacity-50" />
         </Button>
       </PopoverTrigger>
       <PopoverContent className="w-[200px] p-0">
         <Command>
-          <CommandInput placeholder="Search framework..." className="h-9" />
+          <CommandInput placeholder="Search state..." className="h-9" />
           <CommandEmpty>No framework found.</CommandEmpty>
           <CommandGroup>
-            {frameworks.map((framework) => (
+            {memo.map((framework) => (
               <CommandItem
                 key={framework.value}
                 value={framework.value}
