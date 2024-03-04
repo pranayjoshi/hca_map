@@ -377,7 +377,7 @@ export default function Filter() {
   ];
 
   return (
-    <div className="h-full w-1/6 items-center justify-center place-items-center shadow-xl p-4 bg-white rounded-lg">
+    <div className="h-full w-1/5git items-center justify-center place-items-center shadow-xl p-4 bg-white rounded-lg">
       <h1 className="text-center text-3xl font-semibold py-2 mb-4">Filter</h1>
       <div className=" items-center justify-center">
         <div className="my-2">

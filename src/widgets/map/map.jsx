@@ -361,7 +361,7 @@ const markersWithDisplacement = count.map((marker, index) => {
   return (
     <div id="map"
       ref={mapRef}
-      style={{ height: "850px", width: "1100px", backgroundColor: "#F9FAFB" }}
+      style={{ height: "650px", width: "1000px", backgroundColor: "#F9FAFB" }}
       className="rounded-xl shadow-xl"
     />
   );
